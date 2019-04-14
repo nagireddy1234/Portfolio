@@ -58,3 +58,22 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
   display:flex;
   flex-wrap: wrap;
   }
+ .name-container-1{
+  margin:auto;
+  text-align:center;
+}
+.name-container-1 p{
+padding:0px 10%;
+}
+  .name-container-2{
+    margin:auto;
+  text-align:center;
+
+  } 
+  
+  .name-container-2 hr{
+    color: #fff;
+    width:55%;
+    margin:auto;
+    border-top:5px dotted white;
+  }
