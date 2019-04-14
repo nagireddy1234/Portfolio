@@ -58,22 +58,49 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
   display:flex;
   flex-wrap: wrap;
   }
+
+  .aboutme-container{
+     background-color: grey;
+     height:100%;
+     width:100%;
+     margin:auto;
+     padding-top:2.5%;
+     position:fixed;
+    
+  }
+  .name-container{
+    background-color: #fff;
+    margin:auto;
+    text-align:center;
+    width:80%;
+    height:600px;
+    border: 1px solid red;
+  }
  .name-container-1{
   margin:auto;
   text-align:center;
 }
-.name-container-1 p{
-padding:0px 10%;
+.name-container-1 h2,  .name-container-2 h2 {
+  font-family: "anton", sans-serif;
 }
-  .name-container-2{
+.name-container-1 p{
+padding:1em 10% 0px 10%;
+font-family: "oxygen", sans-serif;
+font-weight: bold;
+}
+
+ .name-container-2{
     margin:auto;
   text-align:center;
-
+  justify-content: center;
   } 
-  
+
   .name-container-2 hr{
-    color: #fff;
-    width:55%;
+    color: #000;
+    width:50%;
     margin:auto;
-    border-top:5px dotted white;
+    border-top:5px dotted #000;
+  }
+  .name-container-2 i{
+    padding-right: 1em;
   }
