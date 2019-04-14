@@ -21,16 +21,16 @@ render(){
 
         <List>
   <ListItem>
-    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 1em'}}> <i class="fa fa-phone-square"  style={{fontSize:"36px"}} ></i>(48) 579162125 </ListItemContent>
+    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 2em'}}> <i class="fa fa-phone-square"  style={{fontSize:"36px"}} ></i>(48) 579162125 </ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 1em'}}> <i class="fa fa-fax" style={{fontSize:"36px"}}> </i>(47) 40563717</ListItemContent>
+    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 2em'}}> <i class="fa fa-fax" style={{fontSize:"36px"}}> </i>(47) 40563717</ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 1em'}}> <i className="fa fa-envelope" style={{fontSize:"36px"}}></i>Nagireddy.panditi@gmail.com</ListItemContent>
+    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 2em'}}> <i className="fa fa-envelope" style={{fontSize:"36px"}}></i>Nagireddy.panditi@gmail.com</ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 1em'}}> <i class="fa fa-skype" style={{fontSize:"36px"}}></i>Nagireddy123451</ListItemContent>
+    <ListItemContent style={{fontSize:"24px", fontFamily:"Anton", padding:'0px 0px 0.8em 2em'}}> <i class="fa fa-skype" style={{fontSize:"36px"}}></i>Nagireddy123451</ListItemContent>
   </ListItem>
       </List>
         
