@@ -18,8 +18,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
-        <Button colored>LIVE DEMO</Button>
+        <Button colored>LIVE DEMO </Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
@@ -34,7 +33,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
+        
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -50,7 +49,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
+        
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -66,7 +65,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
+       
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -88,7 +87,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
+       
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -104,7 +103,7 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
+        
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -120,7 +119,6 @@ class Projects extends Component {
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
         <Button colored>GITHUB</Button>
-        <Button colored>CODE OPEN</Button>
         <Button colored>LIVE DEMO</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -142,7 +140,7 @@ class Projects extends Component {
       </CardText>
       <CardActions border style={{textAlign:"center"}}>
           <Button colored>GITHUB</Button>
-          <Button colored>CODE OPEN</Button>
+        
           <Button colored>LIVE DEMO</Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
@@ -158,7 +156,7 @@ class Projects extends Component {
       </CardText>
       <CardActions border style={{textAlign:"center"}}>
           <Button colored>GITHUB</Button>
-          <Button colored>CODE OPEN</Button>
+         
           <Button colored>LIVE DEMO</Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
@@ -174,7 +172,7 @@ class Projects extends Component {
       </CardText>
       <CardActions border style={{textAlign:"center"}}>
           <Button colored>GITHUB</Button>
-          <Button colored>CODE OPEN</Button>
+         
           <Button colored>LIVE DEMO</Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
@@ -190,7 +188,7 @@ class Projects extends Component {
       </CardText>
       <CardActions border style={{textAlign:"center"}}>
           <Button colored>GITHUB</Button>
-          <Button colored>CODE OPEN</Button>
+        
           <Button colored>LIVE DEMO</Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
