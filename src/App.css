@@ -1,18 +1,11 @@
 .header-color {
-  background: #833ab4;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
 }
 
 .landing-grid {
-  background: #833ab4;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   ;
   text-align: center;
@@ -25,7 +18,7 @@
 }
 
 .Banner-text {
-  background-color: #000;
+  background-color: #fff;
   width: 75%;
   margin: auto;
   border-radius: 25px;
@@ -71,23 +64,33 @@
   flex-wrap: wrap;
 }
 
-.aboutme-container {
-  background-color: grey;
+.aboutme-container, .contact-container {
   height: 100%;
   width: 100%;
   margin: auto;
   padding-top: 2.5%;
-  position: fixed;
-
+  color: #fff;
+}
+.name-container .ListItemContent{
+  font-size:24px;
+  font-Family:Anton;
+  padding:0px 0px 0.8em 2em
+}
+.name-container .fa{
+  font-size:36px;
 }
 
 .name-container {
-  background-color: #fff;
+  background-color:transparent;
   margin: auto;
   text-align: center;
   width: 80%;
-  height: 600px;
-  border: 1px solid red;
+  height: 100%;
+ 
+}
+
+.name-container .summary{
+  font-family: "anton", sans-serif;
 }
 
 .name-container-1 {
@@ -103,20 +106,24 @@
 .name-container-1 p {
   padding: 1em 10% 0px 10%;
   font-family: "oxygen", sans-serif;
+  text-align: justify;
+}
+.name-container .skillset{
+  font-family: "oxygen", sans-serif;
   font-weight: bold;
 }
 
 .name-container-2 {
   margin: auto;
-  text-align: center;
+  text-align: justify;
   justify-content: center;
 }
 
 .name-container-2 hr {
-  color: #000;
+  color: #fff;
   width: 50%;
   margin: auto;
-  border-top: 5px dotted #000;
+  border-top: 5px dotted #fff;
 }
 
 .name-container-2 i {
@@ -130,5 +137,18 @@
 }
 
 .Resume-page-grid-2 {
-  background-color: gray;
+  background-color:antiquewhite;
+}
+
+
+.contact-details{
+  text-align: center;
+}
+
+         /* *********Media quaries**************** */
+
+@media only screen and (max-width: 600px) {
+body {
+  background-color: lightblue;
+}
 }

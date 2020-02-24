@@ -52,7 +52,7 @@ render(){
          <hr/>
          
          <h1 style={{paddingLeft:"0.5em"}}>Experience</h1>
-         <Grid className="Education-grid">
+            <Grid className="Education-grid">
 
         <Cell col={4} className="Education-grid-1">
         <h6>2007-2011</h6>
@@ -107,14 +107,17 @@ render(){
         <Cell col={9}>
         <ProgressBar progress={45} />
         </Cell>  
-    </Grid>
+    </Grid> 
+
         </Cell>  
           
     </Grid>
     
+
     
     
     </div>
+    
   );
 }
 }
