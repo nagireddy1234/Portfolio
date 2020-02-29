@@ -21,25 +21,20 @@ class Resume extends Component {
                         <p className="mail-style"><a href="mailto:nagireddy.panditi@gmail.com?Subject=Hello" target="_top"> nagireddy.panditi@gmail.com</a></p>
                         <h4>Web</h4>
                         <p className="mail-style"> <a href="https://nagireddy1234.github.io/myPortfolio/" rel="noopener noreferrer" target="_blank">
-                        Portfolio-page
+                            Portfolio-page
                         </a> </p>
-                        
-                        
                     </Cell>
 
                     <Cell col={8} className="Resume-page-grid-2">
                         <h2 >Professional Experience</h2>
                         <Grid className="Experience-grid">
-
                             <Cell col={4} className="Experience-grid-1">
                                 <h6>03/2018-07/2019</h6>
                             </Cell>
-
                             <Cell col={8} className="Experience-grid-2">
                                 <h3 >UI Developer, Scepter.pl, Warsaw, Poland</h3>
                                 <ul> <li> Using HTML, CSS, Bootstrap and jQuery to create user-friendly web pages</li><li>Design mobile-based features using RWD</li> <li>Collaborate with back-end developers and web designers to improve the usability and help back-enddevelopers with coding and troubleshooting</li><li>Create quality mockups and prototypes</li>
                                 </ul>
-                                
                             </Cell>
                         </Grid>
                         <Grid className="Experience-grid">
@@ -52,7 +47,7 @@ class Resume extends Component {
                                 <h3>Intern, Ericsson Eesti As, Tallinn,Estonia</h3>
                                 <ul>
                                     <li>
-                                    Responsible for a wide variety of advanced verification tasks, including designing self-checking test benches using modern verification techniques; designing verification components such as bus functional models, monitors, and behavioural models
+                                        Responsible for a wide variety of advanced verification tasks, including designing self-checking test benches using modern verification techniques; designing verification components such as bus functional models, monitors, and behavioural models
                                     </li>
                                 </ul>
                             </Cell>
@@ -83,7 +78,7 @@ class Resume extends Component {
                             </Cell>
                         </Grid>
                         <hr />
-                        <h1 style={{ paddingLeft: "0.5em" }}>Skills</h1>
+                        <h2 >Skills</h2>
                         <Grid className="demo-grid-1">
                             <Cell col={3}>
                                 <h6>JavaScript</h6>

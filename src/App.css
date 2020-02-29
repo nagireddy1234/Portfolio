@@ -1,14 +1,24 @@
-.header-color {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
-}
-
 .landing-grid {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  ;
+;
   text-align: center;
+  height: 100%;
+}
+.demo-big-content{
+  height: 100%;
+}
+.header-color {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+}
+.header-link, .drawer-link{
+  text-decoration: none;
+  color: white;
+}
+.drawer-link{
+  color: #000;
 }
 
 .avatar-img {
@@ -18,31 +28,28 @@
 }
 
 .Banner-text {
-  background-color: navy;
+  background-color: yellowgreen;
   width: 75%;
   margin: auto;
-  border-radius: 25px;
+  border-radius: 2em;
   padding: 2em;
-
+  color: #000;
 }
 
 .Banner-text h1 {
-  color: #fff;
   opacity: 0.8;
 }
 
 .Banner-text hr {
-  color: #fff;
-  width: 55%;
+  width: 60%;
   margin: auto;
-  border-top: 5px dotted white;
+  border-top: 5px dotted #000;
 }
 
 .Banner-text p {
-  color: #fff;
   opacity: 0.8;
   padding: 1em;
-  font-size: 20px;
+  font-size: 1.4em;
 }
 
 .social-icons {
@@ -51,17 +58,22 @@
   padding-bottom: 2em;
   width: 75%;
   margin: auto;
-
 }
 
 .social-icons i {
-  color: #fff;
-  font-size: 3.95em;
+  color: #000;
+  font-size: 4em;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* *********************** Projects container ************************ */
+
+.projects-container .card-items{
+  margin:2em ;
 }
 
 .aboutme-container, .contact-container {
@@ -73,7 +85,7 @@
 }
 .name-container .ListItemContent{
   font-size:24px;
-  font-Family:Anton;
+   font-Family:"Anton"; 
   padding:0px 0px 0.8em 2em
 }
 .name-container .fa{
@@ -90,7 +102,7 @@
 }
 
 .name-container .summary{
-  font-family: "anton", sans-serif;
+   font-family: "anton", sans-serif; 
 }
 
 .name-container-1 {
@@ -100,7 +112,7 @@
 
 .name-container-1 h2,
 .name-container-2 h2 {
-  font-family: "anton", sans-serif;
+   font-family: "anton", sans-serif; 
 }
 
 .name-container-1 p {
@@ -109,7 +121,7 @@
   text-align: justify;
 }
 .name-container .skillset{
-  font-family: "oxygen", sans-serif;
+  /* font-family: "oxygen", sans-serif; */
   font-weight: bold;
 }
 
@@ -172,8 +184,34 @@
 
          /* *********Media quaries**************** */
 
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer-button {
+    color: #fff !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-body {
-  background-color: lightblue;
+.Banner-text h1 {
+  font-size: 2em;
 }
+.Banner-text { 
+  padding: 2em; 
 }
+.Banner-text hr {
+  width: 80%;
+  border-top: 2px dotted #000;
+}
+.Banner-text p {
+  padding: 0.5em;
+  font-size: 1em;
+}
+.social-icons {
+  padding-bottom: 1em;
+}
+.social-icons i { 
+  font-size: 2em;
+}
+
+}
+
+

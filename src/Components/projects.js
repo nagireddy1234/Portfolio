@@ -8,17 +8,17 @@ class Projects extends Component {
     togglecategories(){
       if(this.state.activeTab===0){
         return (
-          <div className="flex-container" > 
-          <div className="card-items" style={{margin:"2em 2em"}}>
+          <div className=" d-flex justify-content-around flex-container projects-container" > 
+          <div className="card-items">
 <Card shadow={0} style={{width: '330px', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '250px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover'}}> ReactJs Project #1</CardTitle>
+    <CardTitle style={{color: '#fff', height: '250px', background: 'url(https://appsbuilders.org/wp-content/uploads/2019/08/1566113415_maxresdefault-1140x641.jpg) center / cover'}}>E-commerce Project</CardTitle>
     <CardText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Mauris sagittis pellentesque lacus eleifend lacinia...
     </CardText>
     <CardActions border style={{textAlign:"center"}}>
-        <Button colored>GITHUB</Button>
-        <Button colored>LIVE DEMO </Button>
+       <a href="https://github.com/nagireddy1234/E-commerce_capstoneProject" rel="noopener noreferrer" target="_blank"> <Button colored>GITHUB</Button> </a>
+       <a href=" https://nagireddy1234.github.io/E-commerce_capstoneProject/" rel="noopener noreferrer" target="_blank"> <Button colored>LIVE DEMO </Button> </a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
