@@ -19,11 +19,11 @@ render(){
         <a href="https://github.com/nagireddy1234"  rel="noopener noreferrer" target="_blank">
         <i className="fa fa-github-square"></i>
         </a>
-        <a href="https://www.facebook.com/alwayssmile1234"  rel="noopener noreferrer" target="_blank">
-        <i className="fa fa-facebook-square"></i>
+        <a href="mailto:nagireddy.panditi@gmail.com"  rel="noopener noreferrer" target="_blank">
+        <i className="fa fa-envelope"></i>
         </a>
-        <a href="https://www.youtube.com/channel/UCkCmU8W5bTscdW1NvZW1yvw?view_as=subscriber"  rel="noopener noreferrer" target="_blank">
-        <i className="fa fa-youtube-square"></i>
+        <a href="https://https://www.facebook.com/alwayssmile1234"  rel="noopener noreferrer" target="_blank">
+        <i className="fa fa-facebook-square"></i>
         </a>
         </div>
         </div>
