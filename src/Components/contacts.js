@@ -5,7 +5,7 @@ import{List,ListItem,ListItemContent} from 'react-mdl';
 class About extends Component{
 render(){
   return(
-    <div className="contact-container">
+    <div className="contact-container container">
      <Grid className="name-container" >
        
         <Cell className="name-container-1" col={6}>

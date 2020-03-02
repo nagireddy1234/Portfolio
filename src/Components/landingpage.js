@@ -10,7 +10,7 @@ render(){
         <img src="https://yt3.ggpht.com/a-/AN66SAwBRJx2eUUyZvfkx8N4fK9M3Xn9vm-5Ow2Phg=s900-mo-c-c0xffffffff-rj-k-no" className="avatar-img" alt="avatar" ></img>
         <div className="Banner-text">
         <h1>Frontend Web Developer</h1>
-        <hr/>
+       
         <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | material UI | GitHub/Git | NodeJS | MongoDB </p>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/"   rel="noopener noreferrer" target="_blank">

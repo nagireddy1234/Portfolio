@@ -1,4 +1,4 @@
-.landing-grid {
+.landing-grid{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -20,13 +20,11 @@
 .drawer-link{
   color: #000;
 }
-
 .avatar-img {
   height: 250px;
   padding: 2.5em 0 2em 0;
   border-radius: 50%;
 }
-
 .Banner-text {
   background-color: yellowgreen;
   width: 75%;
@@ -141,39 +139,38 @@
 .name-container-2 i {
   padding-right: 1em;
 }
+.resume-contaner{
+  background-color: yellowgreen;
+}
 
-.Resume-page-grid-2 hr{
-  color: gray;
-  width:100%;
-  border-top: 4px solid gray;
+.Resume-page-grid {
+  background-color:yellowgreen;
 }
-.Resume-page-grid-1 h1{
+
+.Resume-page-grid h2{
+  padding:1em 0;
+  text-align: center;
+  
+}
+.Resume-page-grid h2{
   margin-top:0px;
-  padding-left:1em;
+  
 }
-.Resume-page-grid-1 h1{
-  margin-top:0px;
-  padding-left:1em;
-}
-.Resume-page-grid-1 p{
+.Resume-page-grid p{
   text-align: justify;
 }
-.Resume-page-grid-1 .mail-style a{
+.Resume-page-grid .mail-style a{
   text-decoration: none;
   color: #000;
 }
 .Experience-grid-2 ul {
-  
   padding-left: 0px;
 }
 .Experience-grid-2 ul li{
   list-style-type: none;
 }
 
-.Resume-page-grid-2 {
-  background-color:lightblue;
-}
-.Resume-page-grid-2 h1{
+.Resume-page-grid h1{
   padding-left:0.2em;
 }
 
@@ -197,10 +194,7 @@
 .Banner-text { 
   padding: 2em; 
 }
-.Banner-text hr {
-  width: 80%;
-  border-top: 2px dotted #000;
-}
+
 .Banner-text p {
   padding: 0.5em;
   font-size: 1em;
@@ -212,6 +206,12 @@
   font-size: 2em;
 }
 
+}
+
+@media only screen and(min-width: 840px){
+  .mdl-grid, .Resume-page {
+    padding: 8px;
+}
 }
 
 
