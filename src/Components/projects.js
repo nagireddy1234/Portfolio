@@ -15,7 +15,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <a href="https://github.com/nagireddy1234/E-commerce_capstoneProject" rel="noopener noreferrer" target="_blank"> <Button colored>GITHUB</Button> </a>
                                 <a href=" https://nagireddy1234.github.io/E-commerce_capstoneProject/" rel="noopener noreferrer" target="_blank"> <Button colored>LIVE DEMO </Button> </a>
@@ -30,7 +30,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
 
@@ -46,7 +46,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
 
@@ -62,7 +62,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
 
@@ -84,7 +84,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
 
@@ -100,7 +100,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                            </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
 
@@ -116,7 +116,7 @@ class Projects extends Component {
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
-    </CardText>
+                             </CardText>
                             <CardActions border style={{ textAlign: "center" }}>
                                 <Button colored>GITHUB</Button>
                                 <Button colored>LIVE DEMO</Button>

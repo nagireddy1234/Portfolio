@@ -11,7 +11,7 @@ render(){
         <div className="Banner-text">
         <h1>Frontend Web Developer</h1>
        
-        <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | material UI | GitHub/Git | NodeJS | MongoDB </p>
+        <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | material UI | GitHub/Git </p>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/"   rel="noopener noreferrer" target="_blank">
         <i className="fa fa-linkedin-square"></i>
