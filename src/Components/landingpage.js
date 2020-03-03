@@ -4,14 +4,15 @@ import {Grid,Cell} from 'react-mdl';
 class Landing extends Component{
 render(){
   return(
-    <div>
+    <div className="landing-grid-container">
     <Grid className="landing-grid">
         <Cell col={12}>
         <img src="https://yt3.ggpht.com/a-/AN66SAwBRJx2eUUyZvfkx8N4fK9M3Xn9vm-5Ow2Phg=s900-mo-c-c0xffffffff-rj-k-no" className="avatar-img" alt="avatar" ></img>
+
         <div className="Banner-text">
-        <h1>Frontend Web Developer</h1>
+        <h1>Front end Web Developer</h1>
        
-        <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | material UI | GitHub/Git </p>
+        <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | Material UI | GitHub/Git </p>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/"   rel="noopener noreferrer" target="_blank">
         <i className="fa fa-linkedin-square"></i>
@@ -29,7 +30,7 @@ render(){
         </div>
         </Cell>
         </Grid>
-    </div>
+        </div>
   );
 }
 }

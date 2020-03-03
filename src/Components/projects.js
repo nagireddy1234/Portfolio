@@ -23,7 +23,8 @@ class Projects extends Component {
                             <CardMenu style={{ color: '#fff' }}>
                                 <IconButton name="share" />
                             </CardMenu>
-                        </Card> </div>
+                        </Card> 
+                        </div>
                     <div className="card-items" style={{ margin: "2em 2em" }}>
                         <Card shadow={1} style={{ width: '330px', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '250px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover' }}> ReactJs Project #2</CardTitle>

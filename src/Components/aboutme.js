@@ -5,7 +5,7 @@ class About extends Component{
 render(){
   return(
     <div className="aboutme-container">
-     <Grid className="name-container" >
+     <Grid className="name-container container" >
        
         <Cell className="name-container-1" col={6}>
         <h2> Nagi reddy </h2>

@@ -1,4 +1,4 @@
-.landing-grid{
+.landing-grid-container, .resume-contaner, .aboutme-container, .projects-container{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -6,12 +6,13 @@
   text-align: center;
   height: 100%;
 }
-.demo-big-content{
-  height: 100%;
-}
 .header-color {
+  overflow: hidden;
   background: rgb(2,0,36);
+  box-shadow: black;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+
+
 }
 .header-link, .drawer-link{
   text-decoration: none;
@@ -28,7 +29,7 @@
 .Banner-text {
   background-color: yellowgreen;
   width: 75%;
-  margin: auto;
+  margin: 2em auto 0 auto;
   border-radius: 2em;
   padding: 2em;
   color: #000;
@@ -81,23 +82,24 @@
   padding-top: 2.5%;
   color: #000;
 }
+.name-container{
+  background-color: yellowgreen;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  
+}
 .name-container .ListItemContent{
   font-size:24px;
-   font-Family:"Anton"; 
+  font-Family:"Anton"; 
   padding:0px 0px 0.8em 2em
 }
 .name-container .fa{
   font-size:36px;
 }
 
-.name-container {
-  background-color:transparent;
-  margin: auto;
-  text-align: center;
-  width: 80%;
-  height: 100%;
- 
-}
+
 
 .name-container .summary{
    font-family: "anton", sans-serif; 
@@ -154,10 +156,6 @@
 }
 .Resume-page-grid h2{
   margin-top:0px;
-  
-}
-.Resume-page-grid p{
-  text-align: justify;
 }
 .Resume-page-grid .mail-style a{
   text-decoration: none;
@@ -167,14 +165,12 @@
   padding-left: 0px;
 }
 .Experience-grid-2 ul li{
-  list-style-type: none;
+   list-style-type: none;
 }
 
 .Resume-page-grid h1{
   padding-left:0.2em;
 }
-
-
 .contact-details{
   text-align: center;
 }

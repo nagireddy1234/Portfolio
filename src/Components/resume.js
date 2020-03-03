@@ -4,15 +4,15 @@ import { Grid, Cell, ProgressBar } from 'react-mdl';
 class Resume extends Component {
     render() {
         return (
-            <div className="resume-contaner container">
-            <Grid className="Resume-page">
+            <div className="resume-contaner">
+            <Grid className="Resume-page container" >
                 <Cell col={12} className="Resume-page-grid">
                     <h2 >Professional Experience</h2>
                     <Grid className="Experience-grid">
-                        <Cell col={5} className="Experience-grid-1">
+                        <Cell col={4} className="Experience-grid-1">
                             <h6>03/2018-07/2019</h6>
                         </Cell>
-                        <Cell col={7} className="Experience-grid-2">
+                        <Cell col={8} className="Experience-grid-2">
                             <h4 >UI Developer, Scepter.pl, Warsaw, Poland</h4>
                             <ul> <li> Using HTML, CSS, Bootstrap and jQuery to create user-friendly web pages</li><li>Design mobile-based features using RWD</li> <li>Collaborate with back-end developers and web designers to improve the usability and help back-enddevelopers with coding and troubleshooting</li><li>Create quality mockups and prototypes</li>
                             </ul>
