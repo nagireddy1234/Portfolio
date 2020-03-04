@@ -4,8 +4,8 @@ import {Grid,Cell} from 'react-mdl';
 class About extends Component{
 render(){
   return(
-    <div className="aboutme-container">
-     <Grid className="name-container container" >
+    <div className="aboutme-container container">
+     <Grid className="name-container " >
        
         <Cell className="name-container-1" col={6}>
         <h2> Nagi reddy </h2>

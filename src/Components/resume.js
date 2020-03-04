@@ -4,10 +4,10 @@ import { Grid, Cell, ProgressBar } from 'react-mdl';
 class Resume extends Component {
     render() {
         return (
-            <div className="resume-contaner">
+            <div className="resume-contaner container">
             <Grid className="Resume-page container" >
                 <Cell col={12} className="Resume-page-grid">
-                    <h2 >Professional Experience</h2>
+                    <h2>Professional Experience</h2>
                     <Grid className="Experience-grid">
                         <Cell col={4} className="Experience-grid-1">
                             <h6>03/2018-07/2019</h6>
@@ -18,13 +18,13 @@ class Resume extends Component {
                             </ul>
                         </Cell>
                     </Grid>
-                    <Grid className="Experience-grid">
+                    <Grid className="Experience-grid ">
 
-                        <Cell col={5} className="Experience-grid-1">
+                        <Cell col={4} className="Experience-grid-1">
                             <h6>08/2015-12/2015</h6>
                         </Cell>
 
-                        <Cell col={7} className="Experience-grid-2">
+                        <Cell col={8} className="Experience-grid-2">
                             <h4>Intern, Ericsson Eesti As, Tallinn,Estonia</h4>
                             <ul>
                                 <li>
@@ -36,24 +36,24 @@ class Resume extends Component {
 
 
                     <h2>Education</h2>
-                    <Grid className="Experience-grid">
+                    <Grid className="Experience-grid ">
 
-                        <Cell col={5} className="Experience-grid-1">
+                        <Cell col={4} className="Experience-grid-1">
                             <h6>2007-2011</h6>
                         </Cell>
 
-                        <Cell col={7} className="Experience-grid-2">
+                        <Cell col={8} className="Experience-grid-2">
                             <h4>Acharya Nagarjuna University</h4>
                             <p style={{ textAlign: "justify", width: "85%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                         </Cell>
                     </Grid>
-                    <Grid className="Experience-grid">
+                    <Grid className="Experience-grid ">
 
-                        <Cell col={5} className="Experience-grid-1">
+                        <Cell col={4} className="Experience-grid-1">
                             <h6>2011-2013</h6>
                         </Cell>
 
-                        <Cell col={7} className="Experience-grid-2">
+                        <Cell col={8} className="Experience-grid-2">
                             <h4>Tallinn Tech University</h4>
                             <p style={{ textAlign: "justify", width: "85%" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                         </Cell>

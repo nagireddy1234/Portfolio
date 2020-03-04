@@ -1,15 +1,18 @@
-.landing-grid-container, .resume-contaner, .aboutme-container, .projects-container{
+html, body {
+  height: 100%;
+}
+body{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 ;
+}
+.landing-grid-container, .resume-contaner, .aboutme-container, .projects-container{
   text-align: center;
-  height: 100vh;
 }
 .header-color {
   overflow: hidden;
   background: rgb(2,0,36);
-  box-shadow: black;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
 }
 .header-link, .drawer-link{
@@ -161,11 +164,12 @@
 .name-container-2 i {
   padding-right: 1em;
 }
-.resume-contaner{
+.resume-contaner, .aboutme-container{
   background-color: yellowgreen;
+  overflow-y: auto;
 }
 
-.Resume-page-grid {
+.Resume-page-grid, .name-container {
   background-color:yellowgreen;
 }
 
