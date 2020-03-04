@@ -23,7 +23,7 @@ render(){
         <a href="mailto:nagireddy.panditi@gmail.com"  rel="noopener noreferrer" target="_blank">
         <i className="fa fa-envelope"></i>
         </a>
-        <a href="https://https://www.facebook.com/alwayssmile1234"  rel="noopener noreferrer" target="_blank">
+        <a href="https://www.facebook.com/alwayssmile1234"  rel="noopener noreferrer" target="_blank">
         <i className="fa fa-facebook-square"></i>
         </a>
         </div>
