@@ -2,12 +2,10 @@ html, body {
   height: 100%;
 }
 body{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fff;
 ;
 }
-.landing-grid-container, .resume-contaner, .aboutme-container, .projects-container{
+.landing-grid-container, .aboutme-container, .projects-container{
   text-align: center;
 }
 .header-color {
@@ -164,37 +162,18 @@ body{
 .name-container-2 i {
   padding-right: 1em;
 }
-.resume-contaner, .aboutme-container{
+.aboutme-container{
   background-color: yellowgreen;
   overflow-y: auto;
 }
 
-.Resume-page-grid, .name-container {
+ .name-container {
   background-color:yellowgreen;
 }
 
-.Resume-page-grid h2{
-  padding:1em 0;
-  text-align: center;
-  
-}
-.Resume-page-grid h2{
-  margin-top:0px;
-}
-.Resume-page-grid .mail-style a{
-  text-decoration: none;
-  color: #000;
-}
-.Experience-grid-2 ul {
-  padding-left: 0px;
-}
-.Experience-grid-2 ul li{
-   list-style-type: none;
-}
 
-.Resume-page-grid h1{
-  padding-left:0.2em;
-}
+
+
 .contact-details{
   text-align: center;
 }
@@ -232,10 +211,6 @@ body{
 
 }
 
-@media only screen and(min-width: 840px){
-  .mdl-grid, .Resume-page {
-    padding: 8px;
-}
-}
+
 
 

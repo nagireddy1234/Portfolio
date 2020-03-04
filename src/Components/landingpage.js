@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
 import {Grid,Cell} from 'react-mdl';
-
 class Landing extends Component{
+  
 render(){
+ 
   return(
     <div className="landing-grid-container">
     <Grid className="landing-grid">
@@ -12,7 +13,7 @@ render(){
         <div className="Banner-text">
         <h1>Front end Web Developer</h1>
        
-        <p>HTML5/CSS3 | Bootstrap | JavaScript | Jquery | React Hooks | Redux | Material UI | GitHub/Git </p>
+        <p>HTML5/CSS3/Bootstrap | Adobe Photoshop | JavaScript | Jquery | React Hooks | Redux |  GitHub/Git | Node Js | Mongo DB</p>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/"   rel="noopener noreferrer" target="_blank">
         <i className="fa fa-linkedin-square"></i>
