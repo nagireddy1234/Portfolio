@@ -7,14 +7,15 @@ class Resume extends Component {
     render() {
         return (
             <div className="resume-page container">
-            <Timeline lineColor={'blue'}>
+                
+            <Timeline lineColor={'#9acd32'} className="Timeline">
             <TimelineItem
                     key="001"
                     dateText="12/2019 – Present"
-                    style={{ color: '#3aafa9' }}
-                    dateInnerStyle={{ background: '#3aafa9', color: '#222' }}
+                    style={{ color: '#9acd32' }}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                     bodyContainerStyle={{
-                        background: '#3aafa9',
+                        background: '#9acd32',
                         color: '#222',
                         padding: '20px',
                         borderRadius: '8px',
@@ -35,10 +36,10 @@ class Resume extends Component {
                 <TimelineItem
                     key="002"
                     dateText="03/2018 – 07/2019"
-                    style={{ color: '#222'}}
-                    dateInnerStyle={{ background: '#37cccc', color: '#222' }}
+                    style={{ color: '#9acd32'}}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                     bodyContainerStyle={{
-                        background: '#37cccc',
+                        background: '#9acd32',
                         color:"#222",
                         padding: '20px',
                         borderRadius: '8px',
@@ -67,14 +68,15 @@ class Resume extends Component {
                 <TimelineItem
                     key="003"
                     dateText="08/2016 – 08/2017"
-                    style={{ color: '#3aafa9' }}
-                    dateInnerStyle={{ background: '#3aafa9', color: '#000' }}
+                    style={{ color: '#9acd32' }}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                     bodyContainerStyle={{
-                        background: '#3aafa9',
-                        color: '#000',
+                        background: '#9acd32',
+                        color: '#222',
                         padding: '20px',
                         borderRadius: '8px',
                         boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                        
                     }}
                 >
                     <div className="timeLineItem">
@@ -91,10 +93,10 @@ class Resume extends Component {
                 <TimelineItem
                     key="004"
                     dateText="09/2013 – 06/2016"
-                    style={{ color: '#222'}}
-                    dateInnerStyle={{ background: '#37cccc', color: '#222' }}
+                    style={{ color: '#9acd32'}}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                     bodyContainerStyle={{
-                        background: '#37cccc',
+                        background: '#9acd32',
                         color:"#222",
                         padding: '20px',
                         borderRadius: '8px',
@@ -120,11 +122,11 @@ class Resume extends Component {
                 <TimelineItem
                     key="005"
                     dateText="08/2016 – 08/2017"
-                    style={{ color: '#3aafa9' }}
-                    dateInnerStyle={{ background: '#3aafa9', color: '#000' }}
+                    style={{ color: '#9acd32' }}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                     bodyContainerStyle={{
-                        background: '#3aafa9',
-                        color: '#000',
+                        background: '#9acd32',
+                        color: '#222',
                         padding: '20px',
                         borderRadius: '8px',
                         boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
@@ -137,6 +139,29 @@ class Resume extends Component {
                         <ul className="timelinneItem-content">
                             <li>Design using special hardware description languages [HDL] like Verilog and VHDL</li>
                             <li>Mainly responsible for design implementation.</li>
+                        </ul>
+                </TimelineItem>
+                <TimelineItem
+                    key="006"
+                    dateText="08/2007 – 06/2011"
+                    style={{ color: '#9acd32' }}
+                    dateInnerStyle={{ background: '#9acd32', color: '#222' }}
+                    bodyContainerStyle={{
+                        background: '#9acd32',
+                        color: '#222',
+                        padding: '20px',
+                        borderRadius: '8px',
+                        boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                    }}
+                >
+                    <div className="timeLineItem">
+                    <h3>B.Tech in Electronics and Communication</h3>
+                    <h5>Bapatla, India</h5>
+                    </div>
+                        <ul className="timelinneItem-content">
+                            <li>Percentage: 74.8%</li>
+                            <li>Acharya Nagarjuna University, Guntur, India</li>
+                            <li>Completed a four-year bachelor degree with distinction</li>
                         </ul>
                 </TimelineItem>
             </Timeline>

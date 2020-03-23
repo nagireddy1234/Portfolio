@@ -6,6 +6,7 @@ class About extends Component{
 render(){
   return(
     <div className="contact-container container">
+      <div className="main-name-container">
      <Grid className="name-container" >
        
         <Cell className="name-container-1" col={6}>
@@ -35,6 +36,7 @@ render(){
         </Cell>
         
     </Grid>
+    </div>
     </div>
   );
 }
