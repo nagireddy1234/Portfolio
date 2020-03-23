@@ -24,7 +24,7 @@ render(){
     <ListItemContent className="ListItemContent"> <a href="tel:+372-53950665" target="_blank"> <i className="fa fa-phone-square" ></i>(372) 53950665 </a> </ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent className="ListItemContent" ><a href="mailto:nagireddy.panditi@gmail.com"  rel="noopener noreferrer" target="_blank"> <i className="fa fa-envelope"></i>Nagireddy.panditi@gmail.com</a></ListItemContent>
+    <ListItemContent className="ListItemContent" ><a href="mailto:nagireddy.panditi@gmail.com"  rel="noopener noreferrer" target="_blank" > <i className="fa fa-envelope" id="special-item"></i>Nagireddy.panditi@gmail.com</a></ListItemContent>
   </ListItem>
   <ListItem>
     <ListItemContent className="ListItemContent"><a href="https://wa.me/4740563717" target="_blank"> <i className="fa fa-whatsapp"></i>(47) 40563717 </a></ListItemContent>

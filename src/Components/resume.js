@@ -16,8 +16,8 @@ class Resume extends Component {
                     bodyContainerStyle={{
                         background: '#9acd32',
                         color: '#222',
-                        padding: '20px',
-                        borderRadius: '8px',
+                        padding: '1em',
+                        borderRadius: '1em',
                         boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
                     }}
                 >

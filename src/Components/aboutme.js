@@ -16,7 +16,7 @@ render(){
         <Cell className="name-container-2" col={6}>
 
         <h2> Technology Summary </h2>
-        <div>
+        <div className="name-container-2-content">
         <p> <span className="skillset">Programming Languages Skills: </span> JavaScript, React Js, Redux, Web-components, SPA, Node JS, Express, Mongo DB; CSS3, Sass; HTML5; BootStrap4; WordPress.</p>
         <p><span className="skillset"> Other Skills:</span> Responsive Design, Mobile First UX, ES6, ES7, Jira, Bitbucket, Github, Babel js, NPM, Webpack </p>
         <p><span className="skillset">Digital Marketing Knowledge:</span> SEO, Google Ads, FaceBook Ads, Twitter Ads, Instagram Ads, Blogs.</p>
