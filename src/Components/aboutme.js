@@ -17,10 +17,10 @@ render(){
 
         <h2> Technology Summary </h2>
         <div>
-        <p> <span className="skillset">Programming Languages Skills: </span> JavaScript, React Js, Redux, Web-components, SPA,, Node JS, Express, Mongo DB; CSS3, Sass; HTML5; BootStrap; WordPress; Git, GitHub;</p>
-        <p><span className="skillset"> Other Skills:</span> Responsive Design, Mobile First UX, ES6, ES7, Jira, Bitbucket, Github, Altassian Bamboo, Babel js, NPM, Webpack, Enzyme, Jest, Gulp.js, Firebase.</p>
-        <p><span className="skillset">Systems: </span> Mac OS X </p>
-        <p><span className="skillset">Digital Marketing Knowledge:</span> SEO, Google Ads, FaceBook Ads, Twitter Ads, Instagram Ads, Youtube, Blog, Research;</p>
+        <p> <span className="skillset">Programming Languages Skills: </span> JavaScript, React Js, Redux, Web-components, SPA, Node JS, Express, Mongo DB; CSS3, Sass; HTML5; BootStrap4; WordPress; Git, GitHub;</p>
+        <p><span className="skillset"> Other Skills:</span> Responsive Design, Mobile First UX, ES6, ES7, Jira, Bitbucket, Github, Babel js, NPM, Webpack </p>
+        <p><span className="skillset">Systems: </span> Windows, Mac OS X </p>
+        <p><span className="skillset">Digital Marketing Knowledge:</span> SEO, Google Ads, FaceBook Ads, Twitter Ads, Instagram Ads, Blog;</p>
         </div>
         </Cell>
         

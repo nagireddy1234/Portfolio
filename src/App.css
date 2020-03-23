@@ -8,11 +8,7 @@ body{
 .landing-grid-container, .aboutme-container, .projects-container{
   text-align: center;
 }
-.header-color {
-  overflow: hidden;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
-}
+
 .header-link, .drawer-link{
   text-decoration: none;
   color: white;
@@ -67,6 +63,22 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
+
+/* *********************** Resume Component ************************ */
+
+.resume-page{
+  background-color: #fff;
+}
+.timeLineItem {
+  padding:1em
+}
+.timeLineItem h3{
+  padding:0.2em 0.2em 0.2em 0;
+}
+.timelinneItem-content{
+  font-size: 1.1em;
+}
+
 
 /* *********************** Projects container ************************ */
 
