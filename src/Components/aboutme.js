@@ -23,13 +23,9 @@ render(){
         <p><span className="skillset">IDE Applications:</span> Visual Studio Code, Notepad++, Code composer studio, IAR embedded system, Eclipse, Visual Studio MATLAB, Microwind 3.1, LT Spice, Cadence.</p>
         <p><span className="skillset">Graphical Skills:</span> Adobe Photoshop</p>
         <p><span className="skillset">Systems: </span> Windows, Mac OS X. </p>
+        <p><span className="skillset">Computer skills:</span> Microsoft PowerPoint, Excel and Word etc</p>
         </div>
-        <h2 className="name-container-2-2"> Additional skills </h2>
-            <div>
-            <p><span className="skillset">Computer skills:</span> Microsoft PowerPoint, Excel and Word etc</p>
-            <p><span className="skillset">Habits:</span> Playing cricket, Watching Tollywood movies etc</p>
-           
-            </div>
+        
         </Cell>
         
     </Grid>

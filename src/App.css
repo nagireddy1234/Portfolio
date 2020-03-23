@@ -3,8 +3,9 @@
   padding:0;
   box-sizing: border-box;
 }
-body{
-  background: #000 !important;
+.mdl-layout__header--scroll .mdl-layout__header-row {
+  width: 100%;
+  background-color: #9acd32 !important;
 }
 .landing-grid-container, .aboutme-container, .projects-container{
   text-align: center;
@@ -81,7 +82,7 @@ body{
   padding:1em
 }
 .timeLineItem h3, .timeLineItem h5{
-  padding:0.2em 0.2em 0.2em 0;
+  padding:0.2em 0.2em 0.2em 0em;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -92,6 +93,11 @@ body{
 .timelinneItem-content{
   font-size: 1.1em;
   font-family: "oxygen", sans-serif;
+ 
+}
+.timelinneItem-content li{
+  margin-left:1%;
+  list-style-type:disc;
 }
 
 
@@ -144,6 +150,10 @@ body{
   font-size:24px;
   font-Family:"Anton"; 
   padding:0px 0px 0.8% 2%
+}
+.ListItemContent a, .ListItemContent a:hover{
+  text-decoration: none;
+  color: #222;
 }
 .name-container .fa{
   font-size:36px;

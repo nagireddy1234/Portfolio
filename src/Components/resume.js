@@ -7,7 +7,6 @@ class Resume extends Component {
     render() {
         return (
             <div className="resume-page container">
-                
             <Timeline lineColor={'#9acd32'} className="Timeline">
             <TimelineItem
                     key="001"
@@ -52,7 +51,7 @@ class Resume extends Component {
                     </div>
                    <ul className="timelinneItem-content">
                        <li>
-                       Using HTML, CSS, Bootstrap and jQuery to create user-friendly web pages
+                       Using HTML5, CSS3, Bootstrap4 and jQuery to create user-friendly web pages
                        </li>
                        <li>
                        Design mobile-based features using RWD.

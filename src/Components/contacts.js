@@ -21,16 +21,20 @@ render(){
   
         <List>
   <ListItem>
-    <ListItemContent className="ListItemContent"> <i className="fa fa-phone-square" ></i>(372) 53950665 </ListItemContent>
+    <ListItemContent className="ListItemContent"> <a href="tel:+372-53950665" target="_blank"> <i className="fa fa-phone-square" ></i>(372) 53950665 </a> </ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent className="ListItemContent"> <i className="fa fa-fax" > </i>(372) 53950665</ListItemContent>
+    <ListItemContent className="ListItemContent" ><a href="mailto:nagireddy.panditi@gmail.com"  rel="noopener noreferrer" target="_blank"> <i className="fa fa-envelope"></i>Nagireddy.panditi@gmail.com</a></ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent className="ListItemContent" > <i className="fa fa-envelope"></i>Nagireddy.panditi@gmail.com</ListItemContent>
+    <ListItemContent className="ListItemContent"><a href="https://wa.me/4740563717" target="_blank"> <i className="fa fa-whatsapp"></i>(47) 40563717 </a></ListItemContent>
   </ListItem>
   <ListItem>
-    <ListItemContent className="ListItemContent"> <i className="fa fa-skype" ></i>Nagireddy123451</ListItemContent>
+    <ListItemContent className="ListItemContent"><a href="https://www.facebook.com/alwayssmile1234"  rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-square"></i> Naga Reddy</a>
+      </ListItemContent>
+  </ListItem>
+  <ListItem>
+    <ListItemContent className="ListItemContent"> <a href="skype:nagireddy123451?call"> <i className="fa fa-skype" ></i>Nagireddy123451</a></ListItemContent>
   </ListItem>
       </List>
         </Cell>
