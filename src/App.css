@@ -65,8 +65,9 @@
 .Banner-text h1{
   font-weight: 600;
 }
-
-
+.nagi{
+  display: block;
+}
 .Banner-text hr {
   width: 60%;
   margin: auto;
@@ -168,8 +169,12 @@
 }
 .main-name-container{
   background-color: yellowgreen;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.main-project-container{
+  background-color: yellowgreen;
+  text-align: center;
 }
 .name-container{
   margin: auto;
