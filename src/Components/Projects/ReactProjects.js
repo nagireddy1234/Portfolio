@@ -1,49 +1,41 @@
 import React from "react";
-import { Container, Row, Col,Card,Button} from "react-bootstrap";
+import ProjectDetails from '../Assests/projectdetails.json'
+
 
 const ReactProjects = () => {
   return (
-    <div className="container single-project" style={{ width: '70%', margin: "0 auto" }}>
-      <div className="row text-center">
-        <div className="col-md-6">
-            <h1>Chingu Store </h1>
-            <p>
-            Application fetches clothes data from ASOS.com API. User can search by name, sort, load more items and add them to the basket. Chingu Store was created in the team of 3 people. I learned a lot about Git workflow and project management. ⚠ Live demo currently offline
-           </p>
-           <button>button-1</button>
-           <button>button-2</button>
-        </div>        
-        <div className="col-md-6">
-            <img src="https://cdn.eso.org/images/thumb300y/eso1907a.jpg" alt="nag" height="200px" width="300px" />
-        </div>        
-        <div className="col-md-6">
-            <h1>Chingu Store </h1>
-            <p>
-            Application fetches clothes data from ASOS.com API. User can search by name, sort, load more items and add them to the basket. Chingu Store was created in the team of 3 people. I learned a lot about Git workflow and project management. ⚠ Live demo currently offline
-           </p>
-           <button>button-1</button>
-           <button>button-2</button>
-        </div>        
-        <div className="col-md-6">
-            <img src="https://cdn.eso.org/images/thumb300y/eso1907a.jpg" alt="nag" height="200px" width="300px" />
-        </div>        
-        <div className="col-md-6">
-            <h1>Chingu Store </h1>
-            <p>
-            Application fetches clothes data from ASOS.com API. User can search by name, sort, load more items and add them to the basket. Chingu Store was created in the team of 3 people. I learned a lot about Git workflow and project management. ⚠ Live demo currently offline
-           </p>
-           <button>button-1</button>
-           <button>button-2</button>
-        </div>        
-        <div className="col-md-6">
-            <img src="https://cdn.eso.org/images/thumb300y/eso1907a.jpg" alt="nag" height="200px" width="300px" />
-        </div>        
-       </div>
-    </div>
-
+    <div className="container">
+    {ProjectDetails.map(details => {
+      return (
+        <div className="card" key={details.id} style={{padding:"2em", margin:"2em auto", backgroundColor:"#9acd32"}}>
+          <h5>{details.name}</h5>
+          <p className="tools">{details.tools.join(", ")}</p>
+          <ul>
+            <li>
+              <a
+                href={details.deploy_link}
+                target="_blank"
+                className="deploy_link"
+              >
+                View Project
+              </a>
+            </li>
+            <li>
+              <a
+                href={details.code_link}
+                target="_blank"
+                className="code_link"
+              >
+                {details.code_link ? "View Code" : null}
+              </a>
+            </li>
+          </ul>
+          <p className="description">{details.description}</p>
+        </div>
+      );
+    })}
+  </div>
   )
-
-
 }
 
 export default ReactProjects;

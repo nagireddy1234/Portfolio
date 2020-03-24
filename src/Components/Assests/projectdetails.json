@@ -1,0 +1,101 @@
+ [
+  {
+    "id": 1,
+    "name": "Fish Shop",
+    "description": "This is a stateful React Js app to buy different kinds of fishes whereas different users can edit or delete fish in their order and if someone can have access to dashboard, he can change the state of fishes on the basis of fresh fishes or sold out.",
+    "code_link": "https://github.com/Sobiash/Shop-Fish",
+    "deploy_link": "https://sobiash.github.io/Shop-Fish/",
+    "tools": ["React Js", "Firebase"],
+    "icons": ["fab", "react"]
+  },
+  {
+    "id": 2,
+    "name": "Movies App",
+    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
+    "code_link": "https://github.com/Sobiash/Movies_App",
+    "deploy_link": "https://sobiash.github.io/Movies_App/",
+    "tools": ["React Js", "Redux", "Session Storage"],
+    "icons": ["fab", "react"]
+  },
+  {
+    "id": 3,
+    "name": "Blog Posts Redux App",
+    "description": "This is an React Redux app which gets posts data from jsonplaceholder and we can try to post a new post to jsonplaceholder.",
+    "code_link": "https://github.com/Sobiash/create-posts-redux-app",
+    "deploy_link": "https://sobiash.github.io/create-posts-redux-app/",
+    "tools": ["React Js", "Redux"],
+    "icons": ["fab", "react"]
+  },
+  {
+    "id": 4,
+    "name": "Cooking Recipes",
+    "description": "This project is made with React Js app. A user can find recipes of differnet food items and his search list can be saved in local storage.",
+    "code_link": "https://github.com/Sobiash/cooking-recipe-app",
+    "deploy_link": " https://sobiash.github.io/cooking-recipe-app/",
+    "tools": ["React Js, Local Storage"],
+    "icons": ["fab", "react"]
+  },
+  {
+    "id": 5,
+    "name": "Tracalories",
+    "description": "This project is purely made with Javascript in Es6. A user can make a calories list by adding foods and required calories, this list can be saved in local storage to edit or delete anytime.",
+    "code_link": "https://github.com/Sobiash/CalculateCaloriesApp",
+    "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
+    "tools": ["Javascript"],
+    "icons": ["fab", "js-square"]
+  },
+  {
+    "id": 6,
+    "name": "InfoFactory",
+    "description": "This is my blog made with Wordpress. I have tried to show different categories of information in separate parts of the blog.  I also have worked with present digital marketing practices like SEO.",
+    "deploy_link": "http://infofactory.pk/",
+    "tools": ["WordPress, Digital Marketing"],
+    "icons": ["fab", "wordpress"]
+  },
+
+  {
+    "id": 7,
+    "name": "Book List",
+    "description": "In this project, I have used Javascript and Bootstrap for making a book list which is stored in your local storage and can be save for next time. You can all delete books at once or edit your book list and keep a new list into storage.",
+    "code_link": "https://github.com/Sobiash/JavaScript-bookListProject",
+    "deploy_link": "https://sobiash.github.io/JavaScript-bookListProject/",
+    "tools": ["Javascript", "BootStrap"],
+    "icons": ["fab", "js-square"]
+  },
+  {
+    "id": 8,
+    "name": "Loan Calculator",
+    "description": "This project is made with Javascript and Bootstrap. With this project you can enter a loan value you wish to apply and give a time period for the loan you want and the %age as interest you wish to pay for that time period. then it will show you monthly payment and a total payment and total interest.",
+    "code_link": "https://github.com/Sobiash/JavaScript-LoanCalculator",
+    "deploy_link": "https://sobiash.github.io/JavaScript-LoanCalculator/",
+    "tools": ["Javascript"],
+    "icons": ["fab", "js-square"]
+  },
+  {
+    "id": 9,
+    "name": "To Do List",
+    "description": "Simple JavaScript application that allows a user to make a to-do list and keep it stored in local data storage.",
+    "code_link": "https://github.com/Sobiash/JavaScript-ToDoList",
+    "deploy_link": "https://sobiash.github.io/JavaScript-ToDoList/",
+    "tools": ["JavaScript"],
+    "icons": ["fab", "js-square"]
+  },
+  {
+    "id": 10,
+    "name": "Number Guessing Game",
+    "description": "Simple JavaScript application that allows a user to play the number guessing game.",
+    "code_link": "https://github.com/Sobiash/JavaScript-NumberGuesser",
+    "deploy_link": "https://sobiash.github.io/JavaScript-NumberGuesser/",
+    "tools": ["Javascript"],
+    "icons": ["fab", "js-square"]
+  },
+  {
+    "id": 11,
+    "name": "Sass Project",
+    "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
+    "code_link": "https://github.com/Sobiash/SASS-Project",
+    "deploy_link": "https://sobiash.github.io/SASS-Project/",
+    "tools": ["Sass", "Gulp"],
+    "icons": ["fab", "sass"]
+  }
+]

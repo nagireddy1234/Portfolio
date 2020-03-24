@@ -10,4 +10,5 @@ const BouncyDivRight = styled.div`
 animation: 0.5s ${bounceAnimationRight};
 `;
 
+
 export {BouncyDiv, BouncyDivRight};
