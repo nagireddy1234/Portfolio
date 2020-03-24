@@ -12,17 +12,17 @@ class App extends Component {
     <Layout>
         <Header className= 'header-color' title={<Link className="header-link" to="/">MyPortfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume">My CV</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">My Work</Link>
+                <Link to="/resume">My CV</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link className="drawer-link" to="/">MyPortfolio</Link>}>
             <Navigation>
-                <Link to="/resume">My CV</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">My Work</Link>
+                <Link to="/resume">My CV</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
