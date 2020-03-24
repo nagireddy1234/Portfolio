@@ -138,6 +138,8 @@
 }
 .main-name-container{
   background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
 }
 .name-container{
   margin: auto;
@@ -234,10 +236,6 @@
 }
 
 @media screen and (max-width: 992px) {
-  .main-name-container{
-    display: flex;
-    justify-content: center;
-  }
   .name-container-2 h2, .name-container-1 h2{
     text-align: center !important;
     font-size: 1.5em;
@@ -294,7 +292,6 @@
    padding: 0px;
 }
 }
-/* Unique items */
 
 
 
