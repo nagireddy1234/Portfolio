@@ -15,7 +15,7 @@ class Landing extends Component {
             <div className="Banner-text">
               <h1>Front end Web Developer</h1>
 
-              <p>HTML5/CSS3/Bootstrap | Adobe Photoshop | JavaScript | Jquery | React Hooks | Redux |  GitHub/Git | Node Js | Mongo DB</p>
+              <p>JavaScript | Jquery | React Hooks | Redux |  GitHub/Git | Node Js | Mongo DB | HTML5/CSS3/Bootstrap | Adobe Photoshop</p>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square"></i>
