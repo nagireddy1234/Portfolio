@@ -68,6 +68,7 @@
 }
 .Banner-text h1{
   font-weight: 600;
+  text-shadow: 1px 1px 1px #222;
 }
 .nagi{
   display: block;
@@ -82,6 +83,7 @@
   padding: 1em;
   font-size: 1.4em;
   color: #222 !important;
+  
 }
 
 .social-icons {
@@ -137,32 +139,17 @@
 
 
 /* *********************** Projects container ************************ */
-
-.projects-container .card-items{
-  margin:2em ;
+.justify-content-center .nav .nav-pills{
+  justify-content: center !important;
 }
-
-.card-items .card{
-  width: 330px;
-  margin: auto;
+.nav-pills .nav-link {
+  border-radius: .25rem;
+  color: #9acd32;
+  font-size: 1.3rem;
 }
-.card-items .card-title{
-  color:#fff;
-  height: 280px;
-  background-image: url('./images/1566113415_maxresdefault-1140x641.jpg');
-  background-position: center;
-  background-size: cover;
-}
-
-.card-items .card-action{
-  text-align: center;
-}
-.card-items .card-action a:hover{
-  text-decoration: none;
-}
-
-.card-items .card-menu{
-  color:#fff;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #222 !important;
+  background-color: #9acd32 !important;
 }
 .aboutme-container, .contact-container, .project-container {
   height: 100%;

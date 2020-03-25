@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectDetails from '../Assests/projectdetails.json'
 
-
 const ReactProjects = () => {
   return (
     <div className="container">
