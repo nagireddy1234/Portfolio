@@ -111,7 +111,7 @@ class Resume extends Component {
                                 studied advanced nano material and semi conductors.
                        </li>
                             <li>
-                                I have done thesis on based energy effeciency in WSNs Network
+                                I have done thesis based on energy effeciency in WSNs Network
                        </li>
                         </ul>
                     </TimelineItem>
@@ -133,7 +133,7 @@ class Resume extends Component {
                             <h5>Banglore, India</h5>
                         </div>
                         <ul className="timelinneItem-content">
-                            <li>Design using special hardware description languages [HDL] like Verilog and VHDL</li>
+                           
                             <li>Mainly responsible for design implementation.</li>
                         </ul>
                     </TimelineItem>

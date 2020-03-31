@@ -3,13 +3,12 @@ import { Grid, Cell } from 'react-mdl';
 
 import { BouncyDiv } from './Animations/animation';
 class Landing extends Component {
-
   render() {
 
     return (
-      <div className="landing-grid-container">
+      <div className="landing-grid-container container">
         <Grid className="landing-grid">
-          <Cell col={12}>  <BouncyDiv>
+        <BouncyDiv> <Cell col={12}>  
             <img src="https://yt3.ggpht.com/a-/AN66SAwBRJx2eUUyZvfkx8N4fK9M3Xn9vm-5Ow2Phg=s900-mo-c-c0xffffffff-rj-k-no" className="avatar-img" alt="avatar" ></img>
 
             <div className="Banner-text">
@@ -30,8 +29,8 @@ class Landing extends Component {
                   <i className="fa fa-facebook-square"></i>
                 </a>
               </div>
-            </div> </BouncyDiv>
-          </Cell>
+            </div>
+          </Cell> </BouncyDiv>
         </Grid>
       </div>
     );

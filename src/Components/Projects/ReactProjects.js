@@ -13,7 +13,7 @@ const ReactProjects = () => {
             <li>
               <a
                 href={details.deploy_link}
-                target="_blank"
+                target="_blank" rel="noopener noreferrer" 
                 className="deploy_link"
               >
                 View Project
@@ -22,7 +22,7 @@ const ReactProjects = () => {
             <li>
               <a
                 href={details.code_link}
-                target="_blank"
+                target="_blank" rel="noopener noreferrer" 
                 className="code_link"
               >
                 {details.code_link ? "View Code" : null}
