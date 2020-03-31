@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Image from '../images/profile_pic.jpg';
 
 import { BouncyDiv } from './Animations/animation';
 class Landing extends Component {
@@ -9,7 +10,7 @@ class Landing extends Component {
       <div className="landing-grid-container container">
         <Grid className="landing-grid">
         <BouncyDiv> <Cell col={12}>  
-            <img src="https://yt3.ggpht.com/a-/AN66SAwBRJx2eUUyZvfkx8N4fK9M3Xn9vm-5Ow2Phg=s900-mo-c-c0xffffffff-rj-k-no" className="avatar-img" alt="avatar" ></img>
+            <img src={Image} className="avatar-img" alt="avatar" ></img>
 
             <div className="Banner-text">
               <h1>Front end Web Developer</h1>
