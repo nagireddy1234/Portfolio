@@ -17,12 +17,12 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header> 
-        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>}>
+        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>} className="title">
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">CV</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/aboutme"  className="title">About Me</Link>
+                <Link to="/projects" className="title">Projects</Link>
+                <Link to="/resume"   className="title">CV</Link>
+                <Link to="/contact"  className="title">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
@@ -34,5 +34,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

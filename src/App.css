@@ -54,10 +54,9 @@
   font-weight: 800;
 }
 .avatar-img {
-  height: 250px;
-  width: 250px;
-  padding: 0.9em 1em ; 
-  border-radius: 50%;
+  height: 20em;
+  padding: 0.9em 0em ; 
+  border-radius: 46%;
 }
 .Banner-text {
   background-color: yellowgreen;
@@ -345,4 +344,14 @@
 .name-container-1 p {
    padding: 0px;
 }
+}
+
+.layout-transparent {
+  background: url('https://www.getmdl.io/assets/demos/transparent.jpg') center / cover;
+}
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
 }
