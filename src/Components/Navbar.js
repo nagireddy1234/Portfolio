@@ -5,7 +5,7 @@ import Projects from './projects';
 import Contacts from './contacts';
 import About from './aboutme';
 import { Switch, Route } from 'react-router-dom';
-const Main = () => (
+const Navbar = () => (
 <Switch> 
 <Route exact path="/" component={landingpage}/>
 <Route exact path="/aboutme" component={About}/>
@@ -15,4 +15,4 @@ const Main = () => (
 </Switch>
 )
 
-export default Main;
+export default Navbar;

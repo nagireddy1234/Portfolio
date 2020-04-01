@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import Main from './Components/Main';
+import Navbar from './Components/Navbar';
 import {Link} from 'react-router-dom';
 
 class App extends Component {
+     togglechange = ()=> {
+        var x = document.getElementById("reddy");
+        x.classList.remove("is-visible")
+    }
   render() {
+    
     return (
 <div className="demo-big-content">
     <Layout>
@@ -17,17 +22,17 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header> 
-        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>} className="title">
+        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>} id="reddy">
             <Navigation>
-                <Link to="/aboutme"  className="title">About Me</Link>
-                <Link to="/projects" className="title">Projects</Link>
-                <Link to="/resume"   className="title">CV</Link>
-                <Link to="/contact"  className="title">Contact</Link>
+                <Link to="/aboutme" onClick={this.togglechange} >About Me</Link>
+                <Link to="/projects" onClick={this.togglechange}>Projects</Link>
+                <Link to="/resume"  onClick={this.togglechange} >CV</Link>
+                <Link to="/contact" onClick={this.togglechange} >Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
-            <Main/>
+            <Navbar/>
         </Content>
     </Layout>
 </div>   
