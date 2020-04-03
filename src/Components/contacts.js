@@ -11,7 +11,7 @@ class About extends Component {
         <div className="main-name-container">
           <Grid className="name-container" >
             <MyDetails />
-            <Cell className="name-container-2" col={6}>
+            <Cell className="name__container" col={6}>
               <BouncyDivRight> <h2 className="contact-details">Contact Datails </h2>
                 <List>
                   <ListItem>
