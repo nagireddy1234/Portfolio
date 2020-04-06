@@ -23,11 +23,11 @@ class Landing extends Component {
                 <a href="https://github.com/nagireddy1234" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square"></i>
                 </a>
+                <a href="https://codepen.io/nagireddy1234" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-codepen"></i>
+                </a>
                 <a href="mailto:nagireddy.panditi@gmail.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-envelope"></i>
-                </a>
-                <a href="https://www.facebook.com/alwayssmile1234" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-facebook-square"></i>
                 </a>
               </div>
             </div>
