@@ -11,7 +11,6 @@ class About extends Component {
           <Grid className="name-container " >
             <MyDetails />
             <Cell className="name__container" col={6}>
-
               <BouncyDivRight> <h2> Technology Summary </h2>
                 <div className="name__container-content">
                   <p> <span className="skillset">Programming Languages Skills: </span> JavaScript,React Js,Redux,Web-components,SPA,Node JS,Express,Mongo DB, CSS3, Sass,HTML5,BootStrap4 and WordPress.</p>
