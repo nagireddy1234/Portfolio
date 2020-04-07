@@ -1,7 +1,7 @@
 import React from "react";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import ReactProjects from './Projects/ReactProjects';
+import ReactProjects from './ProjectsLists/ReactProjects';
 
 const Projects = () => {
     
@@ -15,8 +15,8 @@ const Projects = () => {
                     <Tab eventKey="html" title="HTML">
                         <h1>HTML</h1>
                     </Tab>
-                    <Tab eventKey="bootstrap" title="Bootstrap" >
-                    <h1>Bootstrap</h1>
+                    <Tab eventKey="javaScript" title="JavaScript" >
+                    <h1>JavaScript</h1>
                     </Tab>
                     <Tab eventKey="mongodb" title="MongoDb" >
                     <h1>Mongo Db</h1>

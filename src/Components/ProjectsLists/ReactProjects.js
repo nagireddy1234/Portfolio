@@ -11,7 +11,7 @@ const ReactProjects = () => {
       return (
         <Container className="card" key={details.id} style={{padding:"2em", margin:"2em 2em", backgroundColor:"#9acd32", borderRadius:"15px"}}>
           <Row>
-          <Col >
+          <Col lg="6">
           <h5>{details.name}</h5>
           <p className="tools">{details.tools.join(", ")}</p>
           <ul>
@@ -36,8 +36,10 @@ const ReactProjects = () => {
           </ul>
           <p className="description">{details.description}</p>
         </Col>
-        <Col style={{ float:"right", textAlign:"right"}}>
-          <Image rounded src={img} style={{height:"100%", width:"75%"}} /> </Col>
+        <Col lg="6">
+         <a href={details.deploy_link}  target="_blank" rel="noopener noreferrer" > <Image rounded src={img} style={{height:"100%", width:"75%"}} />
+        </a>
+         </Col>
           </Row>  
         </Container>
        
