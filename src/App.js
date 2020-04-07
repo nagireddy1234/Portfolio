@@ -5,8 +5,7 @@ import Navbar from './Components/Navbar';
 import {Link} from 'react-router-dom';
 
 class App extends Component {
-    
-    addActiveClass = () =>{
+    addActiveClass = () => {
         var x =document.getElementsByClassName('mdl-navigation__link');
         for (var i = 0; i < x.length; i++) {
             x[i].addEventListener("click", function() {
