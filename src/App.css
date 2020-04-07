@@ -58,7 +58,6 @@
   background-color:#def6ad !important;
   color:#222!important;
   font-weight: 800;
-  font-size: 1.1em;
 }
 .avatar-img {
   height: 20em;
@@ -221,7 +220,7 @@
   font-size: 1.1em;
 }
 .name-container .skillset{
-  /* font-family: "oxygen", sans-serif; */
+  font-family: "oxygen", sans-serif; 
   font-weight: bold;
 }
 .name__container {
