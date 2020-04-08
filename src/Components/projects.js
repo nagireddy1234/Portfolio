@@ -2,6 +2,7 @@ import React from "react";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import ReactProjects from './ProjectsLists/ReactProjects';
+import HtmlProjects from './ProjectsLists/HtmlProjects';
 
 const Projects = () => {
 
@@ -12,8 +13,8 @@ const Projects = () => {
                     <Tab eventKey="reactJs" title="React JS">
                         <ReactProjects />
                     </Tab>
-                    <Tab eventKey="html" title="HTML">
-                        <h1>HTML</h1>
+                    <Tab eventKey="html" title="HTML/CSS/BOOTSTRAP">
+                        <HtmlProjects />
                     </Tab>
                     <Tab eventKey="javaScript" title="JavaScript" >
                     <h1>JavaScript</h1>

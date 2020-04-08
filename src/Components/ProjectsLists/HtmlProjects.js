@@ -1,12 +1,12 @@
 import React from "react";
-import ReactProjectDetails from '../Assests/reactprojectdetails.json'
+import HtmlProjectDetails from '../Assests/reactprojectdetails.json'
 import img from "../../images/Untitled.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const ReactProjects = () => {
+const HtmlProjects = () => {
   const pStyles = {
     backgroundColor: "transparent",
     color: "#222 !important",
@@ -14,13 +14,11 @@ const ReactProjects = () => {
     border: "1px solid #222",
     fontWeight: "800",
   }
-
   return (
     <div className="container">
-      {ReactProjectDetails.map(details => {
+      {HtmlProjectDetails.map(details => {
         return (
-         
-           <ScrollAnimation  key={details.id} animateIn='zoomIn' duration={0.5} initiallyVisible={true} > 
+          <ScrollAnimation key={details.id} animateIn='zoomIn' duration={0.5} initiallyVisible={true} >
             <Container className="card Project-card" key={details.id} style={{ padding: "2em", marginTop: "2em", backgroundColor: "#9acd32", borderRadius: "15px", fontFamily: "'oxygen', sansSerif" }}>
               <Row>
                 <Col lg="6">
@@ -57,12 +55,14 @@ const ReactProjects = () => {
                   </a>
                 </Col>
               </Row>
+
             </Container>
           </ScrollAnimation>
-         
         );
       })}
     </div>
+
   )
 }
-export default ReactProjects;
+
+export default HtmlProjects;
