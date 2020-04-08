@@ -30,7 +30,8 @@ class About extends Component {
                   <ListItem>
                     <ListItemContent className="ListItemContent"> <a href="skype:nagireddy123451?call"> <i className="fa fa-skype" ></i>Nagireddy123451</a></ListItemContent>
                   </ListItem>
-                </List> </BouncyDivRight>
+                </List> 
+              </BouncyDivRight>
             </Cell>
           </Grid>    
         </div>

@@ -55,7 +55,7 @@
   font-weight: 800;
 }
 .mdl-navigation__link.active{
-  background-color:#def6ad !important;
+  background-color:pink !important;
   color:#222!important;
   font-weight: 800;
 }
@@ -249,9 +249,32 @@
 .contact-details{
   text-align: center;
 }
-.btn .btn-primary .btn-block:focus{
-  outline: none;
+#project-button {
+  border: none !important;
+  background-color: transparent !important; 
 }
+#project-button a{
+  background-color: transparent !important;
+  border-radius: 25px !important;
+  color: #222 !important;
+  border: 1px solid #222;
+  padding: 0.5em 1em;
+  transition: ease-in-out 0.5s all;
+}
+#project-button a:hover{
+  color: #9acd32 !important;
+  background-color: #222 !important;
+}
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.img-hover-zoom img {
+  transition: transform 1s ease;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
           /* ******Animation********* */
           @keyframes bounce {
             0% {
