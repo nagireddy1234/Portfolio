@@ -50,15 +50,18 @@
 .mdl-navigation__link:hover{
   background-color:#222 !important;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:#9acd32!important;
   font-weight: 800;
+  line-height: 61px !important;
 }
 .mdl-navigation__link.active{
   background-color:pink !important;
   color:#222!important;
-  font-weight: 800;
+  font-size: 1em;
+  line-height: 61px !important;
 }
+
 .avatar-img {
   height: 20em;
   padding: 2.1em 0em 2.2em 0em; 
@@ -269,10 +272,11 @@
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 .img-hover-zoom img {
-  transition: transform 1s ease;
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
 }
 .img-hover-zoom:hover img {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
           /* ******Animation********* */
