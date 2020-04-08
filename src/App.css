@@ -249,6 +249,9 @@
 .contact-details{
   text-align: center;
 }
+.btn .btn-primary .btn-block:focus{
+  outline: none;
+}
           /* ******Animation********* */
           @keyframes bounce {
             0% {
@@ -308,6 +311,7 @@
     align-items: center !important;
     justify-content: center !important; 
   }
+
 }
 @media (max-width: 839px) and (min-width: 480px)
 {

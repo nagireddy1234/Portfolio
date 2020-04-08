@@ -6,7 +6,6 @@ import 'react-mdl/extra/material.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from 'react-router-dom';
 
-
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

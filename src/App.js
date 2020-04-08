@@ -6,9 +6,9 @@ import {Link} from 'react-router-dom';
 
 class App extends Component {
     addActiveClass = () => {
-        var x =document.getElementsByClassName('mdl-navigation__link');
-        for (var i = 0; i < x.length; i++) {
-            x[i].addEventListener("click", function() {
+        var links =document.getElementsByClassName('mdl-navigation__link');
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener("click", function() {
             var current = document.getElementsByClassName("active");
             if (current.length > 0) { 
               current[0].className = current[0].className.replace(" active", "");

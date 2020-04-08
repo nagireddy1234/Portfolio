@@ -53,6 +53,7 @@
     "id": 6,
     "name": "InfoFactory",
     "description": "This is my blog made with Wordpress. I have tried to show different categories of information in separate parts of the blog.  I also have worked with present digital marketing practices like SEO.",
+    "code_link": "https://github.com/Sobiash/CalculateCaloriesApp",
     "deploy_link": "http://infofactory.pk/",
     "tools": ["WordPress, Digital Marketing"],
     "icons": ["fab", "wordpress"],

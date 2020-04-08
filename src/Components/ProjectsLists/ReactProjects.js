@@ -3,11 +3,11 @@ import ProjectDetails from '../Assests/projectdetails.json'
 import img from "../../images/Untitled.png";
 import {Container,Row,Col} from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
-const ReactProjects = () => {
-  
+const ReactProjects = () => { 
   const pStyles = {
     backgroundColor:"transparent",
     color:"#222 !important",
@@ -16,15 +16,17 @@ const ReactProjects = () => {
     fontWeight:"800",
   }
   return (
+   
     <div className="container">
     {ProjectDetails.map(details => {
       return (
-        <Container className="card" key={details.id} style={{padding:"2em", margin:"2em 2em", backgroundColor:"#9acd32", borderRadius:"15px", fontFamily:"'oxygen', sansSerif"}}>
+        <ScrollAnimation animateIn='zoomIn' duration={0.5} initiallyVisible={true} >
+        <Container className="card Project-card" key={details.id} style={{padding:"2em", marginTop:"2em", backgroundColor:"#9acd32", borderRadius:"15px", fontFamily:"'oxygen', sansSerif"}}>
           <Row>
           <Col lg="6">
           <h5>{details.name}</h5>
           <p className="tools">{details.tools.join(", ")}</p>
-          <Button block 
+          <Button  className="mr-3 mb-3"
           style={pStyles}
           >
               <a
@@ -36,8 +38,8 @@ const ReactProjects = () => {
                {details.deploy_link? "View Project" : null} 
               </a>
           </Button>
-          <Button block
-           style={{backgroundColor:"transparent", color:"#222 !important", borderRadius:"25px",border:"1px solid #222", fontWeight:"800"}}
+          <Button className="mb-3"
+           style={{backgroundColor:"transparent", color:"#222 !important", borderRadius:"25px",border:"1px solid #222", fontWeight:"800", outline:"0 !important"}}
           >
               <a
                 href={details.code_link}
@@ -54,11 +56,14 @@ const ReactProjects = () => {
          <a href={details.deploy_link}  target="_blank" rel="noopener noreferrer" > <Image rounded src={img} style={{height:"100%", width:"75%"}} />
         </a>
          </Col>
-          </Row>  
-        </Container> 
+          </Row>
+            
+        </Container>
+        </ScrollAnimation>
       );
     })} 
   </div>
+ 
   )
 }
 
