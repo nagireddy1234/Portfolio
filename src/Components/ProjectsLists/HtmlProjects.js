@@ -13,9 +13,9 @@ const HtmlProjects = () => {
       return (
         <Zoom duration={500} key={details.id}>
           <Container className="card Project-card" key={details.id} style={{ padding: "2em", marginTop: "2em", backgroundColor: "#9acd32", borderRadius: "15px", fontFamily: "'oxygen', sansSerif" }}>
+          <h4 style={{fontWeight:"600", marginBottom:"1em" }}>{details.name}</h4>
             <Row>
               <Col lg="6">
-                <h4 style={{fontWeight:"600" }}>{details.name}</h4>
                 <p className="tools">{details.tools.join(", ")}</p>
                 <Button className="mr-2 mb-3" id="project-button" >
                   <a
