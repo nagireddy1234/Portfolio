@@ -26,7 +26,7 @@ class App extends Component {
             <Navigation>
                 <Link to="/aboutme" onClick={this.addActiveClass}>About Me</Link>
                 <Link to="/projects" onClick={this.addActiveClass}>Projects</Link>
-                <Link to="/resume" onClick={this.addActiveClass}>CV</Link>
+                <Link to="/cv" onClick={this.addActiveClass}>CV</Link>
                 <Link to="/contact" onClick={this.addActiveClass}>Contact</Link>
             </Navigation>
         </Header> 
@@ -34,7 +34,7 @@ class App extends Component {
             <Navigation>
                 <Link to="/aboutme" >About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/resume" >CV</Link>
+                <Link to="/cv" >CV</Link>
                 <Link to="/contact" >Contact</Link>
             </Navigation>
         </Drawer>
