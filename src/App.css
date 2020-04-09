@@ -40,22 +40,23 @@
   opacity: 1;
   transition: all 0.5s;
 }
-
 .mdl-navigation__link{
   color: #222 !important;
   transition: all 0.5s;
   font-size: 1em;
   border-bottom: 3px solid transparent;
 }
-.mdl-navigation__link:hover{
+.mdl-layout__header-row .mdl-navigation__link:hover, .mdl-layout__drawer .mdl-navigation__link:hover{
   background-color:#222 !important;
   text-decoration: none;
   font-size: 1.2em;
   color:#9acd32!important;
   font-weight: 800;
+}
+.mdl-layout__header-row .mdl-navigation__link:hover{
   line-height: 61px !important;
 }
-.mdl-navigation__link.active{
+.mdl-layout__header-row .mdl-navigation__link.active{
   background-color:pink !important;
   color:#222!important;
   font-size: 1.2em !important;
