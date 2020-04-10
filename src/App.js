@@ -5,6 +5,17 @@ import Navbar from './Components/Pages/Navbar';
 import {Link} from 'react-router-dom';
 
 class App extends Component {
+    
+    togglechange = ()=> {
+        var closeDrawer = document.querySelector(".mdl-layout__drawer");
+        var closeDrawerButton =document.querySelector(".mdl-layout__drawer-button");
+        var closeObfuscator= document.querySelector(".mdl-layout__obfuscator")
+        closeDrawer.classList.remove("is-visible");
+        closeObfuscator.classList.remove("is-visible")
+        closeDrawer.removeAttribute('aria-hidden')
+        closeDrawer.setAttribute("aria-hidden",false)
+        closeDrawerButton.setAttribute("aria-hidden",true)
+    }
     addActiveClass = () => {
         var links =document.getElementsByClassName('mdl-navigation__link');
         for (var i = 0; i < links.length; i++) {
@@ -32,10 +43,10 @@ class App extends Component {
         </Header> 
         <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>}>
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/cv" >CV</Link>
-                <Link to="/contact" >Contact</Link>
+                <Link to="/aboutme" onClick={this.togglechange} >About Me</Link>
+                <Link to="/projects" onClick={this.togglechange}>Projects</Link>
+                <Link to="/cv" onClick={this.togglechange}>CV</Link>
+                <Link to="/contact" onClick={this.togglechange} >Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
