@@ -30,9 +30,9 @@ class App extends Component {
                 <Link to="/contact" onClick={this.addActiveClass}>Contact</Link>
             </Navigation>
         </Header> 
-        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>} id="reddy">
+        <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>}>
             <Navigation>
-                <Link to="/aboutme" >About Me</Link>
+                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/cv" >CV</Link>
                 <Link to="/contact" >Contact</Link>
