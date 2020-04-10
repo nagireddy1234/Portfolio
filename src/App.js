@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Pages/Navbar';
 import {Link} from 'react-router-dom';
 
 class App extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import {BouncyDivRight } from './Animations/animation';
-import MyDetails from './Reusable/NameDetails'
+import {BouncyDivRight } from '../Animations/animation';
+import MyDetails from '../Reusable/NameDetails'
 
 class About extends Component {
   render() {

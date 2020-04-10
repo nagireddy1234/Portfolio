@@ -11,7 +11,7 @@
   text-align: center;
   margin-top: 2em;
 }
-.mdl-layout-title:hover{
+.mdl-layout-title:active{
   animation: bounce 1s infinite;
 }
 .header-link, .drawer-link{
@@ -291,7 +291,7 @@
               transform: translateY(0px);
             }
             50% {
-              transform: translateY(5px);
+              transform: translateY(1px);
             }
             60% {
               transform: translateY(0px);

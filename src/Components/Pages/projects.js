@@ -1,12 +1,10 @@
 import React from "react";
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import ReactProjects from './ProjectsLists/ReactProjects';
-import HtmlProjects from './ProjectsLists/HtmlProjects';
-
+import ReactProjects from '../ProjectsLists/ReactProjects';
+import HtmlProjects from '../ProjectsLists/HtmlProjects';
 
 const Projects = () => {
-
     return (
         <div className="project-container container">
             <div className="main-project-container" style={{backgroundColor:"#fff"}}>
