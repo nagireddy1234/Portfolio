@@ -5,11 +5,11 @@ import Navbar from './Components/Pages/Navbar';
 import {Link} from 'react-router-dom';
 
 class App extends Component {
-    
+
     togglechange = ()=> {
-        var closeDrawer = document.querySelector(".mdl-layout__drawer");
-        var closeDrawerButton =document.querySelector(".mdl-layout__drawer-button");
-        var closeObfuscator= document.querySelector(".mdl-layout__obfuscator")
+        let closeDrawer = document.querySelector(".mdl-layout__drawer");
+        let closeDrawerButton =document.querySelector(".mdl-layout__drawer-button");
+        let closeObfuscator= document.querySelector(".mdl-layout__obfuscator")
         closeDrawer.classList.remove("is-visible");
         closeObfuscator.classList.remove("is-visible")
         closeDrawer.removeAttribute('aria-hidden')
