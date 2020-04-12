@@ -35,7 +35,7 @@ class App extends Component {
     <Layout>
         <Header className= 'header-color' title={<Link className="header-link" to="/"> Nagi Reddy</Link>} scroll>
             <Navigation>
-                <Link to="/aboutme" onClick={this.addActiveClass}>About Me</Link>
+                <Link to="/aboutme" onClick={this.addActiveClass}>About</Link>
                 <Link to="/projects" onClick={this.addActiveClass}>Projects</Link>
                 <Link to="/cv" onClick={this.addActiveClass}>CV</Link>
                 <Link to="/contact" onClick={this.addActiveClass}>Contact</Link>
@@ -43,7 +43,7 @@ class App extends Component {
         </Header> 
         <Drawer title={<Link className="drawer-link" to="/">Nagi Reddy</Link>}>
             <Navigation>
-                <Link to="/aboutme" onClick={this.togglechange} >About Me</Link>
+                <Link to="/aboutme" onClick={this.togglechange} >About</Link>
                 <Link to="/projects" onClick={this.togglechange}>Projects</Link>
                 <Link to="/cv" onClick={this.togglechange}>CV</Link>
                 <Link to="/contact" onClick={this.togglechange} >Contact</Link>
