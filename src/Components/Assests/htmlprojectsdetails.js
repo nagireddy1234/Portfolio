@@ -1,4 +1,11 @@
-[
+import img1 from '../../images/ntvk.JPG';
+import img2 from '../../images/merkuriusz.JPG';
+import img3 from '../../images/ntvk.JPG';
+import img4 from '../../images/ntvk.JPG';
+import img5 from '../../images/ntvk.JPG';
+// import img2 from '../../images/mobile-store.jPG';
+ 
+ export default[
   {
     "id": 1,
     "name": "Ntvk Project",
@@ -7,7 +14,7 @@
     "deploy_link": "http://www.ntvk.com.pl/",
     "tools": ["Bootstrap", "jQuery","HTML5","CSS3"],
     "icons": ["Bootstrap", "HTML5"],
-    "image":"/../../images/Untitled.png",
+    "image":img1,
     "image_describe":"NTVK"
   },
   {
@@ -18,7 +25,7 @@
     "deploy_link": "http://merkuriusz.pl/",
     "tools": ["Bootstrap", "jQuery","HTML5","CSS3"],
     "icons": ["Bootstrap", "HTML5"],
-    "image":"../../images/untitled.png",
+    "image":img2,
     "image_describe":"Merkuriusz"
   },
   {
@@ -29,7 +36,8 @@
     "deploy_link": "https://nagireddy1234.github.io/raflkmal/",
     "tools": ["Bootstrap", "jQuery","HTML5","CSS3"],
     "icons": ["Bootstrap", "HTML5"],
-    "image":"../../images/untitled.png"
+    "image":img3,
+    "image_describe":"councillor"
   },
   {
     "id": 4,
@@ -39,7 +47,8 @@
     "deploy_link": "https://nagireddy1234.github.io/Lawyer/",
     "tools": ["Bootstrap", "jQuery","HTML5","CSS3"],
     "icons": ["Bootstrap", "HTML5"],
-    "image":"../../images/untitled.png"
+    "image":img4,
+    "image_describe":"lawyer"
   },
   {
     "id": 5,
@@ -49,7 +58,8 @@
     "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
     "tools": ["Javascript"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/untitled.png"
+    "image":img5,
+    "image_describe":"movies-app"
   }
   
 ]

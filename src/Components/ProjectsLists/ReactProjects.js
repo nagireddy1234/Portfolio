@@ -1,6 +1,6 @@
 import React from "react";
-import ReactProjectDetails from '../Assests/reactprojectdetails.json'
-import img from "../../images/hotel-booking.png";
+import ReactProjectDetails from '../Assests/reactprojectdetails.js'
+//  import img from "../../images/hotel-booking.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
@@ -40,7 +40,7 @@ const ReactProjects = () => {
                 <p className="description" style={{textAlign:"justify"}}>{details.description}</p>
               </Col>
               <Col lg="6">
-               <div className="img-hover-zoom"> <a href={details.deploy_link} target="_blank" rel="noopener noreferrer" > <Image src={img} style={{ height: "100%", width: "75%" }} />
+               <div className="img-hover-zoom"> <a href={details.deploy_link} target="_blank" rel="noopener noreferrer" > <Image src={details.image} alt={details.image_describe} style={{ height: "100%", width: "75%" }} />
                 </a> 
                </div>
               </Col>

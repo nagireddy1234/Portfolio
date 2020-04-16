@@ -1,13 +1,27 @@
- [
+ import img1 from '../../images/hotel-booking.png';
+ import img2 from '../../images/mobile-store.JPG';
+ import img3 from '../../images/budget-caluclator.JPG';
+ import img4 from '../../images/weather-finder.JPG';
+ import img5 from '../../images/budget-caluclator.JPG';
+ import img6 from '../../images/recipe-app.JPG';
+ import img7 from '../../images/recipe-app.JPG';
+ import img8 from '../../images/local_venue.JPG';
+ import img9 from '../../images/dad-jokes-app.JPG';
+ import img10 from '../../images/dad-jokes-app.JPG';
+ import img11 from '../../images/dad-jokes-app.JPG';
+ import img12 from '../../images/dad-jokes-app.JPG';
+ import img13 from '../../images/dad-jokes-app.JPG';
+ 
+ export default [
   {
     "id": 1,
     "name": "Hotel-Booking-App",
     "description": "This is a Hotel-booking React Js app to book different kinds of rooms whereas different users can remove or add the rooms in their order and if someone can have access to dashboard, he can change the state of rooms on the basis of new rooms or already booked.",
-    "code_link": "https://github.com/Sobiash/Shop-Fish",
-    "deploy_link": "https://sobiash.github.io/Shop-Fish/",
+    "code_link": "https://github.com/nagireddy1234/Hotel-Booking-App",
+    "deploy_link": "https://hotelbookingapp.netlify.app/",
     "tools": ["React Js", "Firebase"],
     "icons": ["fab", "react"],
-    "image":"/../../images/hotel-booking.png",
+    "image":img1,
     "image_describe":"beach resort Image"
   },
   {
@@ -18,7 +32,8 @@
     "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
     "tools": ["React Js", "Redux","local storage" ],
     "icons": ["fab", "react"],
-    "image":"../../images/hotel-booking.png"
+    "image":img2,
+    "image_describe":"mobile-store"
   },
   {
     "id": 3,
@@ -28,7 +43,8 @@
     "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
     "tools": ["React Js", "React Hooks", "Local storage"],
     "icons": ["fab", "react"],
-    "image":"../../images/hotel-booking.png"
+    "image":img3,
+    "image_describe":"budget-caluclator"
   },
   {
     "id": 4,
@@ -38,7 +54,8 @@
     "deploy_link": "https://weather-finding-app.netlify.com/?_ga=2.93918740.809865735.1586892963-319421270.1585670224",
     "tools": ["React Js, Local Storage"],
     "icons": ["fab", "react"],
-    "image":"../../images/hotel-booking.png"
+    "image":img4,
+    "image_describe":"weather-finder"
   },
   {
     "id": 5,
@@ -48,7 +65,8 @@
     "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
     "tools": ["Javascript"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/hotel-booking.png"
+    "image":img5,
+    "image_describe":"movie-app"
   },
   {
     "id": 6,
@@ -58,7 +76,8 @@
     "deploy_link": "http://infofactory.pk/",
     "tools": ["WordPress, Digital Marketing"],
     "icons": ["fab", "wordpress"],
-    "image":"../../images/hotel-booking.png"
+    "image":img6,
+    "image_describe":"chat-app"
   },
 
   {
@@ -69,7 +88,8 @@
     "deploy_link": "https://recipes-ideas-app.netlify.com/?_ga=2.126810500.809865735.1586892963-319421270.1585670224",
     "tools": ["Javascript", "BootStrap"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/hotel-booking.png"
+    "image":img7,
+    "image_describe":"recipe-app"
   },
   {
     "id": 8,
@@ -79,7 +99,8 @@
     "deploy_link": "https://nagireddy1234.github.io/local_venue/",
     "tools": ["Javascript"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/hotel-booking.png"
+    "image":img8,
+    "image_describe":"local_venue"
   },
   {
     "id": 9,
@@ -89,17 +110,19 @@
     "deploy_link": "https://dadjokes-app.netlify.com/",
     "tools": ["React", "Local storage"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/hotel-booking.png"
+    "image":img9,
+    "image_describe":"dad-jokes-app"
   },
   {
     "id": 10,
-    "name": "Rock-Paper-Scissor",
+    "name": "Currency-converter",
     "description": "Simple JavaScript application that allows a user to play the number guessing game.",
     "code_link": "https://github.com/nagireddy1234/rock-paper-scissor-using-reactJS",
     "deploy_link": "https://sobiash.github.io/JavaScript-NumberGuesser/",
     "tools": ["Javascript"],
     "icons": ["fab", "js-square"],
-    "image":"../../images/hotel-booking.png"
+    "image":img10,
+    "image_describe":"currency-converter"
   },
   {
     "id": 11,
@@ -109,7 +132,8 @@
     "deploy_link": "https://sobiash.github.io/SASS-Project/",
     "tools": ["Sass", "Gulp"],
     "icons": ["fab", "sass"],
-    "image":"../../images/hotel-booking.png"
+    "image":img11,
+    "image_describe":"todo-list"
   },
   {
     "id": 12,
@@ -119,7 +143,8 @@
     "deploy_link": "https://mobilesstore.netlify.com/",
     "tools": ["Sass", "Gulp"],
     "icons": ["fab", "sass"],
-    "image":"../../images/hotel-booking.png"
+    "image":img12,
+    "image_describe":"tech-store"
   },
   {
     "id": 13,
@@ -129,6 +154,7 @@
     "deploy_link": "https://sobiash.github.io/SASS-Project/",
     "tools": ["Sass", "Gulp"],
     "icons": ["fab", "sass"],
-    "image":"../../images/hotel-booking.png"
+    "image":img13,
+    "image_describe":"expenses-tracker"
   }
 ]
