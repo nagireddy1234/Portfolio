@@ -32,6 +32,9 @@
 .mdl-layout__header-row .mdl-navigation__link:hover {
     text-decoration: none;
 }
+.mdl-layout__drawer{
+  border-right:none !important;
+}
 .mdl-layout__drawer.is-visible {
   background-color: #9acd32;
 }
@@ -44,26 +47,30 @@
   color: #222 !important;
   transition: all 0.5s;
   font-size: 1em;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid transparent;
 }
-.mdl-layout__header-row .mdl-navigation__link:hover, .mdl-layout__drawer .mdl-navigation__link:hover{
-  background-color:#222 !important;
+.mdl-layout__header-row .mdl-navigation__link:hover, .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+  background-color:transparent !important; 
   text-decoration: none;
   font-size: 1.2em;
-  color:#9acd32!important;
+  color:#222!important;
   font-weight: 800;
+  border-bottom: 1px solid #222;
+} 
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+  background-color:#222 !important; 
+  color:#9acd32!important;
 }
 .mdl-layout__header-row .mdl-navigation__link:hover{
   line-height: 61px !important;
 }
 .mdl-layout__header-row .mdl-navigation__link.active{
-  background-color:pink !important;
-  color:#222!important;
+  background-color: #222 !important;
+  color:#9acd32!important;
   font-size: 1.2em !important;
   font-weight: 500 !important;
   line-height: 61px !important;
 }
-
 .avatar-img {
   height: 20em;
   padding: 2.1em 0em 2.2em 0em; 
@@ -315,7 +322,7 @@
 
 @media screen and (max-width: 1024px) {
   .mdl-layout__drawer-button {
-    color: #fff !important;
+    color: #222 !important;
   }
   .landing-grid-container{
     height: 100%;
