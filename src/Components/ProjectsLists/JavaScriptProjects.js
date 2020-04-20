@@ -23,7 +23,7 @@ const JavaScriptProjects = () => {
                     className="deploy_link"
                     style={{ textDecoration: "none", color: "#222" }}
                   >
-                    {details.deploy_link ? "View Project" : null}
+                    {details.deploy_link ? "Live Demo" : null}
                   </a>
                 </Button>
                 <Button className="mb-3" id="project-button">
