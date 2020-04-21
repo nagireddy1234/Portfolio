@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import ReactProjects from '../ProjectsLists/ReactProjects';
 import HtmlProjects from '../ProjectsLists/HtmlProjects';
 import JavaScriptProjects from '../ProjectsLists/JavaScriptProjects';
+import CapstoneProjects from '../ProjectsLists/CapstoneProjects';
 
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
             <div className="main-project-container" style={{backgroundColor:"#fff"}}>
                 <Tabs defaultActiveKey="capstone" className="justify-content-center" variant="pills">
                 <Tab eventKey="capstone" title="Capstone Projects" >
-                    <h1>Capstone Projects</h1>
+                    <CapstoneProjects />
                     </Tab>
                     <Tab eventKey="reactJs" title="React JS">
                         <ReactProjects />

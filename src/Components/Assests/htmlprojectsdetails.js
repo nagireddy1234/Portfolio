@@ -1,6 +1,6 @@
 import img1 from '../../images/ntvk.JPG';
 import img2 from '../../images/merkuriusz.JPG';
-import img3 from '../../images/ntvk.JPG';
+import img3 from '../../images/counciller.JPG';
 import img4 from '../../images/ntvk.JPG';
 import img5 from '../../images/ntvk.JPG';
 // import img2 from '../../images/mobile-store.jPG';
