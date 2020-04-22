@@ -1,6 +1,6 @@
  import img1 from '../../images/hotel-booking.png';
  import img2 from '../../images/e-commerce.jpg';
- import img3 from '../../images/budget-caluclator.jpg';
+ import img3 from '../../images/budget-caluclator.JPG';
  import img4 from '../../images/weather-finder.JPG';
  import img6 from '../../images/recipe-app.JPG';
  import img7 from '../../images/recipe-app.JPG';
