@@ -1,15 +1,14 @@
 import React from "react";
-import HtmlProjectDetails from '../Assests/htmlprojectsdetails.js';
-// import img from "../../images/hotel-booking.png";
+import NodeProjectDetails from '../Assests/nodeprojectdetails';
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Zoom from 'react-reveal/Zoom';
 
-const HtmlProjects = () => {
+const NodeProjects = () => {
   return (
     <div className="container">
-    {HtmlProjectDetails.map(details => {
+    {NodeProjectDetails.map(details => {
       return (
         <Zoom duration={500} key={details.id}>
           <Container className="card Project-card" key={details.id} style={{ padding: "2em", marginTop: "2em", backgroundColor: "#9acd32", borderRadius: "15px", fontFamily: "'oxygen', sansSerif" }}>
@@ -40,7 +39,7 @@ const HtmlProjects = () => {
                 <p className="description" style={{textAlign:"justify"}}>{details.description}</p>
               </Col>
               <Col lg="6">
-               <div className="img-hover-zoom"> <a href={details.deploy_link} target="_blank" rel="noopener noreferrer" > <Image src={details.image} alt={details.image_describe} style={{ height: "75%", width: "75%" }} />
+               <div className="img-hover-zoom"> <a href={details.deploy_link} target="_blank" rel="noopener noreferrer" > <Image src={details.image} alt={details.image_describe} style={{ height: "100%", width: "75%" }} />
                 </a> 
                </div>
               </Col>
@@ -54,4 +53,4 @@ const HtmlProjects = () => {
   )
 }
 
-export default HtmlProjects;
+export default NodeProjects;

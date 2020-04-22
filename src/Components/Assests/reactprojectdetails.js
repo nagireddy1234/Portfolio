@@ -2,10 +2,9 @@
  import img2 from '../../images/mobile-store.JPG';
  import img3 from '../../images/budget-caluclator.JPG';
  import img4 from '../../images/weather-finder.JPG';
- import img5 from '../../images/budget-caluclator.JPG';
  import img6 from '../../images/recipe-app.JPG';
  import img7 from '../../images/recipe-app.JPG';
- import img8 from '../../images/local_venue.JPG';
+ import img5 from '../../images/local_venue.JPG';
  import img9 from '../../images/dad-jokes-app.JPG';
  import img10 from '../../images/dad-jokes-app.JPG';
  import img11 from '../../images/dad-jokes-app.JPG';
@@ -59,14 +58,14 @@
   },
   {
     "id": 5,
-    "name": "Movies-App",
-    "description": "This project is purely made with Javascript in Es6. A user can make a calories list by adding foods and required calories, this list can be saved in local storage to edit or delete anytime.",
-    "code_link": "https://github.com/Sobiash/CalculateCaloriesApp",
-    "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
+    "name": "Local_venue",
+    "description": "This project is made with Javascript and Bootstrap. With this project you can enter a loan value you wish to apply and give a time period for the loan you want and the %age as interest you wish to pay for that time period. then it will show you monthly payment and a total payment and total interest.",
+    "code_link": "https://github.com/nagireddy1234/local_venue",
+    "deploy_link": "https://nagireddy1234.github.io/local_venue/",
     "tools": ["Javascript"],
     "icons": ["fab", "js-square"],
     "image":img5,
-    "image_describe":"movie-app"
+    "image_describe":"local_venue"
   },
   {
     "id": 6,
@@ -90,17 +89,6 @@
     "icons": ["fab", "js-square"],
     "image":img7,
     "image_describe":"recipe-app"
-  },
-  {
-    "id": 8,
-    "name": "Local_venue",
-    "description": "This project is made with Javascript and Bootstrap. With this project you can enter a loan value you wish to apply and give a time period for the loan you want and the %age as interest you wish to pay for that time period. then it will show you monthly payment and a total payment and total interest.",
-    "code_link": "https://github.com/nagireddy1234/local_venue",
-    "deploy_link": "https://nagireddy1234.github.io/local_venue/",
-    "tools": ["Javascript"],
-    "icons": ["fab", "js-square"],
-    "image":img8,
-    "image_describe":"local_venue"
   },
   {
     "id": 9,

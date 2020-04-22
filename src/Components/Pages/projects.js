@@ -5,6 +5,7 @@ import ReactProjects from '../ProjectsLists/ReactProjects';
 import HtmlProjects from '../ProjectsLists/HtmlProjects';
 import JavaScriptProjects from '../ProjectsLists/JavaScriptProjects';
 import CapstoneProjects from '../ProjectsLists/CapstoneProjects';
+import NodeProjects from '../ProjectsLists/NodejsProjects'
 
 
 const Projects = () => {
@@ -25,8 +26,8 @@ const Projects = () => {
                     <Tab eventKey="javaScript" title="JavaScript/Jquery" >
                     <JavaScriptProjects />
                     </Tab>
-                    <Tab eventKey="mongodb" title="NodeJs/MongoDb" >
-                    <h1>NodeJs/Mongo Db</h1>
+                    <Tab eventKey="nodejs" title="NodeJs/MongoDb" >
+                    <NodeProjects />
                     </Tab>
                     
                 </Tabs>
