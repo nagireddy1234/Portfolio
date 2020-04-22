@@ -1,6 +1,5 @@
 import React from "react";
 import HtmlProjectDetails from '../Assests/htmlprojectsdetails.js';
-// import img from "../../images/hotel-booking.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';

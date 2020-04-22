@@ -1,6 +1,6 @@
  import img1 from '../../images/hotel-booking.png';
- import img2 from '../../images/mobile-store.JPG';
- import img3 from '../../images/budget-caluclator.JPG';
+ import img2 from '../../images/e-commerce.jpg';
+ import img3 from '../../images/budget-caluclator.jpg';
  import img4 from '../../images/weather-finder.JPG';
  import img6 from '../../images/recipe-app.JPG';
  import img7 from '../../images/recipe-app.JPG';
@@ -8,7 +8,7 @@
  import img9 from '../../images/dad-jokes-app.JPG';
  import img10 from '../../images/dad-jokes-app.JPG';
  import img11 from '../../images/dad-jokes-app.JPG';
- import img12 from '../../images/dad-jokes-app.JPG';
+ import img12 from '../../images/mobile-store.JPG';
  import img13 from '../../images/dad-jokes-app.JPG';
  
  export default [
@@ -32,7 +32,7 @@
     "tools": ["React Js", "Redux","local storage" ],
     "icons": ["fab", "react"],
     "image":img2,
-    "image_describe":"mobile-store"
+    "image_describe":"e-commerce"
   },
   {
     "id": 3,

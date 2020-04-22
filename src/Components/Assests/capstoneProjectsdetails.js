@@ -2,6 +2,7 @@ import img1 from '../../images/waves-project.JPG';
 import img2 from '../../images/colors-app.JPG';
 import img3 from '../../images/mobile-store.JPG';
 import img4 from '../../images/hotel-booking.png';
+import img5 from '../../images/e-commerce.jpg';
 
 
 export default [
@@ -50,5 +51,16 @@ export default [
   "icons": ["fab", "react"],
   "image":img4,
   "image_describe":"beach resort Image"
+},
+ {
+  "id": 5,
+  "name": "e-commerce",
+  "description": "This is a Hotel-booking React Js app to book different kinds of rooms whereas different users can remove or add the rooms in their order and if someone can have access to dashboard, he can change the state of rooms on the basis of new rooms or already booked.",
+  "code_link": "https://github.com/nagireddy1234/Hotel-Booking-App",
+  "deploy_link": "https://hotelbookingapp.netlify.app/",
+  "tools": ["React Js", "Firebase"],
+  "icons": ["fab", "react"],
+  "image":img5,
+  "image_describe":"e-commerce"
 },
 ]
