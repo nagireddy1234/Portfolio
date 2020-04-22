@@ -4,9 +4,7 @@ import img3 from '../../images/mobile-store.JPG';
 import img4 from '../../images/hotel-booking.png';
 import img5 from '../../images/e-commerce.jpg';
 
-
 export default [
-
   {
     "id": 1,
     "name": "Waves-Project",
