@@ -3,8 +3,9 @@ import { Grid, Cell } from 'react-mdl';
 import { List, ListItem, ListItemContent } from 'react-mdl';
 import { BouncyDivRight } from '../Animations/animation';
 import MyDetails from '../Reusable/NameDetails';
-class About extends Component {
 
+
+class About extends Component {
   render() {
     return (
       <div className="contact-container container">

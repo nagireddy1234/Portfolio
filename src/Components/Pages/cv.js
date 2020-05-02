@@ -20,7 +20,7 @@ class Resume extends Component {
                         }}
                     >
                         <div className="timeLineItem">
-                            <h3 >Self learned React Developer</h3>
+                            <h3 >React Developer</h3>
                         </div>
                         <ul className="timelinneItem-content">
                             <li>I involved from conception to completion with projects that are technologically sound and aesthetically impressive. </li>
