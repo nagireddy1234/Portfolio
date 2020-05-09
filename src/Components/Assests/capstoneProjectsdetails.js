@@ -4,8 +4,7 @@ import img3 from '../../images/mobile-store.JPG';
 import img4 from '../../images/hotel-booking.png';
 import img5 from '../../images/e-commerce.jpg';
 
-export default [
-  {
+export default [  {
     "id": 1,
     "name": "Waves-Project",
     "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
