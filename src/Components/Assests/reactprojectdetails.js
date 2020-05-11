@@ -1,14 +1,14 @@
- import img1 from '../../images/hotel-booking.png';
- import img2 from '../../images/e-commerce.jpg';
+//  import img1 from '../../images/hotel-booking.png';
+//  import img2 from '../../images/e-commerce.jpg';
  import img3 from '../../images/budget-caluclator.jpg';
  import img4 from '../../images/weather-finder.JPG';
- import img6 from '../../images/recipe-app.JPG';
+//  import img6 from '../../images/recipe-app.JPG';
  import img7 from '../../images/recipe-app.JPG';
  import img5 from '../../images/local_venue.JPG';
  import img9 from '../../images/dad-jokes-app.JPG';
  import img10 from '../../images/number-guesser.JPG';
- import img11 from '../../images/dad-jokes-app.JPG';
- import img12 from '../../images/mobile-store.JPG';
+//  import img11 from '../../images/dad-jokes-app.JPG';
+//  import img12 from '../../images/mobile-store.JPG';
  import img13 from '../../images/expense-tracker.jpg';
  
  export default [
