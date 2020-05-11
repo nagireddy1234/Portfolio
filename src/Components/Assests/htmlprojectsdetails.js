@@ -50,16 +50,16 @@ import img5 from '../../images/ntvk.JPG';
     "image":img4,
     "image_describe":"lawyer"
   },
-  {
-    "id": 5,
-    "name": "Movies-app",
-    "description": "This project is purely made with Javascript in Es6. A user can make a calories list by adding foods and required calories, this list can be saved in local storage to edit or delete anytime.",
-    "code_link": "https://github.com/Sobiash/CalculateCaloriesApp",
-    "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
-    "tools": ["Javascript"],
-    "icons": ["fab", "js-square"],
-    "image":img5,
-    "image_describe":"movies-app"
-  }
+  // {
+  //   "id": 5,
+  //   "name": "Movies-app",
+  //   "description": "This project is purely made with Javascript in Es6. A user can make a calories list by adding foods and required calories, this list can be saved in local storage to edit or delete anytime.",
+  //   "code_link": "https://github.com/Sobiash/CalculateCaloriesApp",
+  //   "deploy_link": "https://sobiash.github.io/CalculateCaloriesApp/",
+  //   "tools": ["Javascript"],
+  //   "icons": ["fab", "js-square"],
+  //   "image":img5,
+  //   "image_describe":"movies-app"
+  // }
   
 ]
