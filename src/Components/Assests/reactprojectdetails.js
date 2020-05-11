@@ -1,15 +1,15 @@
 //  import img1 from '../../images/hotel-booking.png';
 //  import img2 from '../../images/e-commerce.jpg';
- import img3 from '../../images/budget-caluclator.jpg';
+//  import img14 from '../../images/budgetCaluclator.jpg';
+ import img3 from '../../images/local_venue.JPG';
  import img4 from '../../images/weather-finder.JPG';
 //  import img6 from '../../images/recipe-app.JPG';
  import img7 from '../../images/recipe-app.JPG';
- import img5 from '../../images/local_venue.JPG';
  import img9 from '../../images/dad-jokes-app.JPG';
  import img10 from '../../images/number-guesser.JPG';
 //  import img11 from '../../images/dad-jokes-app.JPG';
 //  import img12 from '../../images/mobile-store.JPG';
- import img13 from '../../images/expense-tracker.jpg';
+//  import img13 from '../../images/expense-tracker.jpg';
  
  export default [
   // {
@@ -36,14 +36,14 @@
   // },
   {
     "id": 3,
-    "name": "Budget Caluclator",
-    "description": "This is a Budget Caluclator app and written with react hooks in order to study react framework which you can add and calulate dialy expenses, remove when its done .",
-    "code_link": "https://github.com/nagireddy1234/budget-caluclator/tree/master",
-    "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
-    "tools": ["React Js", "React Hooks", "Local storage"],
-    "icons": ["fab", "react"],
+    "name": "Local_venue",
+    "description": "This project is made with Javascript and Bootstrap. With this project you can enter a loan value you wish to apply and give a time period for the loan you want and the %age as interest you wish to pay for that time period. then it will show you monthly payment and a total payment and total interest.",
+    "code_link": "https://github.com/nagireddy1234/local_venue",
+    "deploy_link": "https://nagireddy1234.github.io/local_venue/",
+    "tools": ["Reactjs", "JavaScript", "react-animation", "Material-UI"],
+    "icons": ["fab", "js-square"],
     "image":img3,
-    "image_describe":"budget-caluclator"
+    "image_describe":"local_venue"
   },
   {
     "id": 4,
@@ -56,17 +56,7 @@
     "image":img4,
     "image_describe":"weather-finder"
   },
-  {
-    "id": 5,
-    "name": "Local_venue",
-    "description": "This project is made with Javascript and Bootstrap. With this project you can enter a loan value you wish to apply and give a time period for the loan you want and the %age as interest you wish to pay for that time period. then it will show you monthly payment and a total payment and total interest.",
-    "code_link": "https://github.com/nagireddy1234/local_venue",
-    "deploy_link": "https://nagireddy1234.github.io/local_venue/",
-    "tools": ["Reactjs", "JavaScript", "react-animation", "Material-UI"],
-    "icons": ["fab", "js-square"],
-    "image":img5,
-    "image_describe":"local_venue"
-  },
+ 
   // {
   //   "id": 6,
   //   "name": "Chat App",
@@ -142,7 +132,18 @@
     "deploy_link": "https://github.com/nagireddy1234/expenseTracker",
     "tools": ["Reactjs", "JavaScript"],
     "icons": ["Reactjs", "JavaScript"],
-    "image":img13,
+    "image":img9,
     "image_describe":"expenses-tracker"
-  }
+  },
+  {
+    "id": 14,
+    "name": "Budget Caluclator",
+    "description": "This is a Budget Caluclator app and written with react hooks in order to study react framework which you can add and calulate dialy expenses, remove when its done .",
+    "code_link": "https://github.com/nagireddy1234/budget-caluclator/tree/master",
+    "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
+    "tools": ["React Js", "React Hooks", "Local storage"],
+    "icons": ["fab", "react"],
+    "image": img9,
+    "image_describe":"budget-caluclator"
+  },
 ]

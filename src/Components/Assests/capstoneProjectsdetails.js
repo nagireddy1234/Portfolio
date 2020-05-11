@@ -1,8 +1,8 @@
-import img1 from '../../images/waves-project.JPG';
+// import img1 from '../../images/waves-project.JPG';
 import img2 from '../../images/colors-app.JPG';
-import img3 from '../../images/mobile-store.JPG';
-import img4 from '../../images/hotel-booking.png';
-import img5 from '../../images/e-commerce.jpg';
+// import img3 from '../../images/mobile-store.JPG';
+// import img4 from '../../images/hotel-booking.png';
+// import img5 from '../../images/e-commerce.jpg';
 
 export default [
   // {
