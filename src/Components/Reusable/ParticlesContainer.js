@@ -9,14 +9,14 @@ render() {
         params={{
           "particles": {
               "number": {
-                  "value": 150,
+                  "value": 250,
                   "density": {
                       "enable": true,
                       "value_area": 1803.4120608655228
                   }
               },
               "color": {
-                  "value": "#ffffff"
+                  "value": "#fff"
               },
               "shape": {
                   "type": "circle",
@@ -54,7 +54,7 @@ render() {
                   }
               },
               "line_linked": {
-                  "enable": true,
+                  "enable": false,
                   "distance": 0,
                   "color": "#ffffff",
                   "opacity": 0.3687847739990702,
