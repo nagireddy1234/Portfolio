@@ -3,7 +3,8 @@ import './App.css';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
 import Navbar from './Components/Pages/Navbar';
 import {Link} from 'react-router-dom';
-import Particles from 'react-particles-js';
+import ParticlesContainer from './Components/Reusable/ParticlesContainer';
+import {BrowserRouter} from 'react-router-dom';
 
 
 class App extends Component {
@@ -33,7 +34,25 @@ class App extends Component {
   render()
    {
     return (
-<div className="demo-big-content">
+        <BrowserRouter>
+<div className="demo-big-content" style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100vh",
+          overflow: "hidden",
+        }}>   
+    <ParticlesContainer />
+    <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%"
+          }}
+        >
     <Layout>
         <Header className= 'header-color' title={<Link className="header-link" to="/"> Nagi Reddy</Link>} scroll>
             <Navigation>
@@ -56,7 +75,10 @@ class App extends Component {
             <Navbar/>
         </Content>
     </Layout>
-</div>   
+    </div>
+      </div>
+
+</BrowserRouter>  
     );
   }
 }
