@@ -122,6 +122,23 @@
   flex-wrap: wrap;
 }
 
+
+/* *********************** scrollbar effects ************************ */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #9acd32;
+  border-radius: 20px;
+}
+
 /* *********************** Resume Component ************************ */
 
 .resume-page{

@@ -43,7 +43,7 @@ class App extends Component {
           height: "100vh",
           overflow: "hidden",
         }}>   
-    <ParticlesContainer />
+    <ParticlesContainer  />
     <div
           style={{
             position: "absolute",
