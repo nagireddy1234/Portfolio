@@ -1,5 +1,5 @@
  import img1 from '../../images/waves-project.JPG';
-import img2 from '../../images/colors-app.JPG';
+import img2 from '../../images/colors-app.png';
 import img3 from '../../images/mobile-store.JPG';
 import img4 from '../../images/hotel-booking.png';
 import img5 from '../../images/e-commerce.jpg';
@@ -8,7 +8,7 @@ export default [
   {
     "id": 1,
     "name": "Waves-Project",
-    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
+    "description":"This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies." ,
     "code_link": "https://github.com/nagireddy1234/E-commerce_capstoneProject",
     "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
     "tools": ["React Js", "Redux","local storage" ],
@@ -20,7 +20,7 @@ export default [
   {
     "id": 2,
     "name": "Colors-App",
-    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
+    "description":"This is a React app, it's similar to \"Flat UI Colors\" and \"Material UI\" Colors and where users can create a their own color palette.Users can take the colors from palette and use it in their own websites. The data is created by my own and I used chroma-js API to generate diffrent colors.",
     "code_link": "https://github.com/nagireddy1234/colors-palette-app",
     "deploy_link": "https://colors-palette.netlify.app/",
     "tools": ["React Js", "Redux","local storage" ],
