@@ -125,7 +125,7 @@
 
 /* *********************** scrollbar effects ************************ */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 25px;
 }
 
 /* Track */
@@ -199,7 +199,7 @@
   justify-content: center;
 }
 .main-project-container{
-  background-color: yellowgreen;
+  background-color: transparent !important;
   text-align: center;
 }
 .name-container{
