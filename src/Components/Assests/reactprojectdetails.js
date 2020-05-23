@@ -1,39 +1,15 @@
-//  import img1 from '../../images/hotel-booking.png';
-//  import img2 from '../../images/e-commerce.jpg';
-//  import img14 from '../../images/budgetCaluclator.jpg';
+ import img1 from '../../images/hotel-booking.png';
+ import img2 from '../../images/e-commerce.jpg';
  import img3 from '../../images/local_venue.JPG';
  import img4 from '../../images/weather-finder.JPG';
-//  import img6 from '../../images/recipe-app.JPG';
+ import img6 from '../../images/budget.JPG';
  import img7 from '../../images/recipe-app.JPG';
- import img9 from '../../images/dad-jokes-app.JPG';
- import img10 from '../../images/number-guesser.JPG';
-//  import img11 from '../../images/dad-jokes-app.JPG';
-//  import img12 from '../../images/mobile-store.JPG';
-//  import img13 from '../../images/expense-tracker.jpg';
+ import img8 from '../../images/dad-jokes-app.JPG';
+ import img9 from '../../images/expense.JPG';
+ import img12 from '../../images/mobile-store.JPG';
  
  export default [
-  // {
-  //   "id": 1,
-  //   "name": "Hotel-Booking-App",
-  //   "description": "This is a Hotel-booking React Js app to book different kinds of rooms whereas different users can remove or add the rooms in their order and if someone can have access to dashboard, he can change the state of rooms on the basis of new rooms or already booked.",
-  //   "code_link": "https://github.com/nagireddy1234/Hotel-Booking-App",
-  //   "deploy_link": "https://hotelbookingapp.netlify.app/",
-  //   "tools": ["React Js", "Firebase"],
-  //   "icons": ["fab", "react"],
-  //   "image":img1,
-  //   "image_describe":"beach resort Image"
-  // },
-  // {
-  //   "id": 2,
-  //   "name": "E-commerce Capstone Project",
-  //   "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
-  //   "code_link": "https://github.com/nagireddy1234/E-commerce_capstoneProject",
-  //   "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
-  //   "tools": ["React Js", "Redux","local storage" ],
-  //   "icons": ["fab", "react"],
-  //   "image":img2,
-  //   "image_describe":"e-commerce"
-  // },
+
   {
     "id": 3,
     "name": "Local_venue",
@@ -57,20 +33,20 @@
     "image_describe":"weather-finder"
   },
  
-  // {
-  //   "id": 6,
-  //   "name": "Chat App",
-  //   "description": "This is my blog made with Wordpress. I have tried to show different categories of information in separate parts of the blog.  I also have worked with present digital marketing practices like SEO.",
-  //   "code_link": "https://github.com/nagireddy1234/chat-app",
-  //   "deploy_link": "http://infofactory.pk/",
-  //   "tools": ["WordPress, Digital Marketing"],
-  //   "icons": ["fab", "wordpress"],
-  //   "image":img6,
-  //   "image_describe":"chat-app"
-  // },
+  {
+    "id": 5,
+    "name": "Budget Caluclator",
+    "description": "This is a Budget Caluclator app and written with react hooks in order to study react framework which you can add and calulate dialy expenses, remove when its done .",
+    "code_link": "https://github.com/nagireddy1234/budget-caluclator/tree/master",
+    "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
+    "tools": ["React Js", "React Hooks", "Local storage"],
+    "icons": ["fab", "react"],
+    "image": img6,
+    "image_describe":"budget-caluclator"
+  },
 
   {
-    "id": 7,
+    "id": 6,
     "name": "Receipe-App",
     "description": "In this project, I have used Javascript and Bootstrap for making a book list which is stored in your local storage and can be save for next time. You can all delete books at once or edit your book list and keep a new list into storage.",
     "code_link": "https://github.com/nagireddy1234/recipe-app",
@@ -81,51 +57,18 @@
     "image_describe":"recipe-app"
   },
   {
-    "id": 9,
+    "id": 7,
     "name": "Dad-Joke-App",
     "description": "Simple JavaScript application that allows a user to make a to-do list and keep it stored in local data storage.",
     "code_link": "https://github.com/nagireddy1234/dad-jokes-app",
     "deploy_link": "https://dadjokes-app.netlify.com/",
     "tools": ["React", "Local storage"],
     "icons": ["fab", "js-square"],
-    "image":img9,
+    "image":img8,
     "image_describe":"dad-jokes-app"
   },
   {
-    "id": 10,
-    "name": "Number-Guesser",
-    "description": "Simple JavaScript application that allows a user to play the number guessing game.",
-    "code_link": "https://github.com/Sobiash/JavaScript-NumberGuesser",
-    "deploy_link": "https://sobiash.github.io/JavaScript-NumberGuesser/",
-    "tools": ["Javascript"],
-    "icons": ["fab", "js-square"],
-    "image":img10,
-    "image_describe":"currency-converter"
-  },
-  // {
-  //   "id": 11,
-  //   "name": "Todo-List-App",
-  //   "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
-  //   "code_link": "https://github.com/Sobiash/SASS-Project",
-  //   "deploy_link": "https://sobiash.github.io/SASS-Project/",
-  //   "tools": ["Sass", "Gulp"],
-  //   "icons": ["fab", "sass"],
-  //   "image":img11,
-  //   "image_describe":"todo-list"
-  // },
-  // {
-  //   "id": 12,
-  //   "name": "Tech-Store-App",
-  //   "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
-  //   "code_link": "https://github.com/nagireddy1234/mobile-tech-store",
-  //   "deploy_link": "https://mobilesstore.netlify.com/",
-  //   "tools": ["Sass", "Gulp"],
-  //   "icons": ["fab", "sass"],
-  //   "image":img12,
-  //   "image_describe":"tech-store"
-  // },
-  {
-    "id": 13,
+    "id": 9,
     "name": "Expense Tracker",
     "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
     "code_link": "https://github.com/nagireddy1234/expenseTracker",
@@ -136,14 +79,37 @@
     "image_describe":"expenses-tracker"
   },
   {
-    "id": 14,
-    "name": "Budget Caluclator",
-    "description": "This is a Budget Caluclator app and written with react hooks in order to study react framework which you can add and calulate dialy expenses, remove when its done .",
-    "code_link": "https://github.com/nagireddy1234/budget-caluclator/tree/master",
-    "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
-    "tools": ["React Js", "React Hooks", "Local storage"],
-    "icons": ["fab", "react"],
-    "image": img9,
-    "image_describe":"budget-caluclator"
+    "id": 10,
+    "name": "Tech-Store-App",
+    "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
+    "code_link": "https://github.com/nagireddy1234/mobile-tech-store",
+    "deploy_link": "https://mobilesstore.netlify.com/",
+    "tools": ["Sass", "Gulp"],
+    "icons": ["fab", "sass"],
+    "image":img12,
+    "image_describe":"tech-store"
   },
+  {
+    "id": 11,
+    "name": "Hotel-Booking-App",
+    "description": "This is a Hotel-booking React Js app to book different kinds of rooms whereas different users can remove or add the rooms in their order and if someone can have access to dashboard, he can change the state of rooms on the basis of new rooms or already booked.",
+    "code_link": "https://github.com/nagireddy1234/Hotel-Booking-App",
+    "deploy_link": "https://hotelbookingapp.netlify.app/",
+    "tools": ["React Js", "Firebase"],
+    "icons": ["fab", "react"],
+    "image":img1,
+    "image_describe":"beach resort Image"
+  },
+  {
+    "id": 12,
+    "name": "E-commerce Project",
+    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
+    "code_link": "https://github.com/nagireddy1234/E-commerce_capstoneProject",
+    "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
+    "tools": ["React Js", "Redux","local storage" ],
+    "icons": ["fab", "react"],
+    "image":img2,
+    "image_describe":"e-commerce"
+  },
+ 
 ]

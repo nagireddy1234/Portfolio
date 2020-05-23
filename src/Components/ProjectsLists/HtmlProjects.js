@@ -11,7 +11,7 @@ const HtmlProjects = () => {
     {HtmlProjectDetails.map(details => {
       return (
         <Zoom duration={500} key={details.id}>
-          <Container className="card Project-card" key={details.id} style={{ padding: "2em", marginTop: "2em", backgroundColor: "#9acd32", borderRadius: "15px", fontFamily: "'oxygen', sansSerif" }}>
+          <Container className="card Project-card" key={details.id} style={{ padding: "2em", marginTop: "2em", backgroundColor: "#9acd32", boxShadow:"rgba(0, 0, 0, 0.2) 0.5rem 0.5rem 2rem 0px", borderRadius: "15px", fontFamily: "'oxygen', sansSerif" }}>
           <h4 style={{fontWeight:"600", marginBottom:"1em" }}>{details.name}</h4>
             <Row>
               <Col lg="6">
