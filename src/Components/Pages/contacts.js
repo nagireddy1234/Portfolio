@@ -22,7 +22,7 @@ class About extends Component {
                     <ListItemContent className="ListItemContent" ><a href="mailto:nagireddy.panditi@gmail.com" rel="noopener noreferrer" target="_blank"  > <i className="fa fa-envelope" id="special-item"></i>Nagireddy.panditi@gmail.com</a></ListItemContent>
                   </ListItem>
                   <ListItem>
-                    <ListItemContent className="ListItemContent"><a href="https://wa.me/4740563717" target="_blank" rel="noopener noreferrer"> <i className="fa fa-whatsapp"></i>(47) 40563717 </a></ListItemContent>
+                    <ListItemContent className="ListItemContent"><a href="https://wa.me/37253950665" target="_blank" rel="noopener noreferrer"> <i className="fa fa-whatsapp"></i>(372) 53950665 </a></ListItemContent>
                   </ListItem>
                   <ListItem>
                     <ListItemContent className="ListItemContent"><a href="https://www.facebook.com/alwayssmile1234" rel="noopener noreferrer" target="_blank"> <i className="fa fa-facebook-square"></i> Naga Reddy</a>
