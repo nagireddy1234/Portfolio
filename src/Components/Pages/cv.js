@@ -8,7 +8,7 @@ class Resume extends Component {
                 <Timeline lineColor={'#9acd32'} className="Timeline">
                     <TimelineItem
                         key="001"
-                        dateText="02/2020 – Present"
+                        dateText="03/2020 – Present"
                         style={{ color: '#9acd32' }}
                         dateInnerStyle={{ background: '#9acd32', color: '#222' }}
                         bodyContainerStyle={{
@@ -20,7 +20,7 @@ class Resume extends Component {
                         }}
                     >
                         <div className="timeLineItem">
-                            <h3 >React Developer</h3>
+                            <h3 >Front-end web Developer</h3>
                         </div>
                         <ul className="timelinneItem-content">
                             <li>I involved from conception to completion with projects that are technologically sound and aesthetically impressive. </li>
