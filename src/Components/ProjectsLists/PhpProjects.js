@@ -1,5 +1,5 @@
 import React from "react";
-import Phpprojectdetails from '../Assests/nodeprojectdetails';
+import Phpprojectdetails from '../Assests/Phpprojectdetails';
 import { Container, Row, Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
