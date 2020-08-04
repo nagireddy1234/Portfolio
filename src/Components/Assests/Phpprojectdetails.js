@@ -22,7 +22,7 @@ export default [
     "deploy_link": "https://github.com/nagireddy1234/coffeeShop-php",
     "tools": ["PHP", "Jquery","Bootstrap","CSS" ],
     "icons": ["fab", "PHP"],
-    "image":img1,
+    "image":img2,
     "image_describe":"Waves-Project"
   },
 ]
