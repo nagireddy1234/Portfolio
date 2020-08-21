@@ -12,7 +12,7 @@ const Projects = () => {
         <div>
         <div className="project-container container">
             <div className="main-project-container" style={{backgroundColor:"#fff"}}>
-                <Tabs defaultActiveKey="html" className="justify-content-center" variant="pills">
+                <Tabs defaultActiveKey="reactJs" className="justify-content-center" variant="pills">
                     <Tab eventKey="reactJs" title="React JS">
                         <ReactProjects />
                     </Tab>
