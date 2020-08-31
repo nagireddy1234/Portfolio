@@ -1,6 +1,7 @@
 import img1 from '../../images/password-generator.JPG';
 import img2 from '../../images/number-guesser.JPG';
-import img3 from '../../images/grocery-javascript.JPG'
+import img3 from '../../images/grocery-javascript.JPG';
+import img4 from '../../images/car-dealer.JPG';
 export default[
   {
     "id": 1,
@@ -33,7 +34,18 @@ export default[
     "tools": ["JavaScript","HTML5","CSS3"],
     "icons": ["JavaScript", "HTML5"],
     "image":img3,
-    "image_describe":"number-guesser"
+    "image_describe":"Groceryitem-list"
+  },
+  {
+    "id": 4,
+    "name": "Car-Dealership-Project",
+    "description": "This is a car-dealer project and made up of using  pure Javascript, Bootstrap4,HTML5 and CSS3.",
+    "code_link": "https://github.com/nagireddy1234/car-dealership-project",
+    "deploy_link": "https://cardealer-javascript.netlify.app/",
+    "tools": ["JavaScript","HTML5","CSS3", "Bootstrap"],
+    "icons": ["JavaScript", "HTML5"],
+    "image":img4,
+    "image_describe":"car-dealership"
   },
   
 ]
