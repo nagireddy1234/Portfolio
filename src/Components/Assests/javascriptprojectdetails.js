@@ -1,18 +1,19 @@
-import img1 from '../../images/password-generator.JPG';
+import img1 from '../../images/car-dealer.JPG';
 import img2 from '../../images/number-guesser.JPG';
 import img3 from '../../images/grocery-javascript.JPG';
-import img4 from '../../images/car-dealer.JPG';
+import img4 from '../../images/password-generator.JPG';
+
 export default[
   {
     "id": 1,
-    "name": "Password Generator",
-    "description": "This is Password Generator simple app. It is made up of using Javascript, Bootstrap,HTML5 and CSS3",
-    "code_link": "https://github.com/nagireddy1234/password-generator",
-    "deploy_link": "https://nagireddy1234.github.io/password-generator/",
-    "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
-    "icons": ["Javascript", "HTML5"],
+    "name": "Car-Dealership-Project",
+    "description": "This is a car-dealer project and made up of using  pure Javascript, Bootstrap4,HTML5 and CSS3.",
+    "code_link": "https://github.com/nagireddy1234/car-dealership-project",
+    "deploy_link": "https://cardealer-javascript.netlify.app/",
+    "tools": ["JavaScript","HTML5","CSS3", "Bootstrap"],
+    "icons": ["JavaScript", "HTML5"],
     "image":img1,
-    "image_describe":"password-generator"
+    "image_describe":"car-dealership"
   },
   {
     "id": 2,
@@ -38,14 +39,14 @@ export default[
   },
   {
     "id": 4,
-    "name": "Car-Dealership-Project",
-    "description": "This is a car-dealer project and made up of using  pure Javascript, Bootstrap4,HTML5 and CSS3.",
-    "code_link": "https://github.com/nagireddy1234/car-dealership-project",
-    "deploy_link": "https://cardealer-javascript.netlify.app/",
-    "tools": ["JavaScript","HTML5","CSS3", "Bootstrap"],
-    "icons": ["JavaScript", "HTML5"],
+    "name": "Password Generator",
+    "description": "This is Password Generator simple app. It is made up of using Javascript, Bootstrap,HTML5 and CSS3",
+    "code_link": "https://github.com/nagireddy1234/password-generator",
+    "deploy_link": "https://nagireddy1234.github.io/password-generator/",
+    "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
+    "icons": ["Javascript", "HTML5"],
     "image":img4,
-    "image_describe":"car-dealership"
-  },
-  
+    "image_describe":"password-generator"
+  }
+
 ]
