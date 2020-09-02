@@ -2,6 +2,7 @@ import img1 from '../../images/car-dealer.JPG';
 import img2 from '../../images/number-guesser.JPG';
 import img3 from '../../images/grocery-javascript.JPG';
 import img4 from '../../images/password-generator.JPG';
+import img5 from '../../images/course-javascript.JPG';
 
 export default[
   {
@@ -47,6 +48,16 @@ export default[
     "icons": ["Javascript", "HTML5"],
     "image":img4,
     "image_describe":"password-generator"
+  },
+  {
+    "id": 5,
+    "name": "Course form Project",
+    "description": "This is a basic app where we can do form validation. It is made up of using Javascript, Bootstrap,HTML5 and CSS3",
+    "code_link": "https://github.com/nagireddy1234/password-generator",
+    "deploy_link": "https://nagireddy1234.github.io/password-generator/",
+    "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
+    "icons": ["Javascript", "HTML5"],
+    "image":img5,
+    "image_describe":"Course form Project"
   }
-
 ]
