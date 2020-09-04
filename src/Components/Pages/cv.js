@@ -61,7 +61,7 @@ class Resume extends Component {
                        </li>
                         </ul>
                     </TimelineItem>
-                    {/* <TimelineItem
+                    <TimelineItem
                         key="003"
                         dateText="08/2016 – 08/2017"
                         style={{ color: '#9acd32' }}
@@ -85,7 +85,7 @@ class Resume extends Component {
                             <li>Recognize the value and limitations of modeling and simulation</li>
                             <li> I have studied one year </li>
                         </ul>
-                    </TimelineItem> */}
+                    </TimelineItem>
                     <TimelineItem
                         key="004"
                         dateText="09/2013 – 01/2017"
