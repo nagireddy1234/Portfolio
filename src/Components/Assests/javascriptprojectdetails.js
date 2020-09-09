@@ -2,7 +2,8 @@ import img1 from '../../images/car-dealer.JPG';
 import img2 from '../../images/number-guesser.JPG';
 import img3 from '../../images/grocery-javascript.JPG';
 import img4 from '../../images/password-generator.JPG';
-import img5 from '../../images/course-javascript.JPG';
+import img5 from '../../images/wikipedia.JPG';
+import img6 from '../../images/course-javascript.JPG';
 
 export default[
   {
@@ -51,10 +52,21 @@ export default[
   },
   {
     "id": 5,
+    "name": "wikipedia-search-project",
+    "description": "This is a wikipedia app where we can search for the the things.we know that wikipedia as open content online encyclopedia created through the collaborative effort of a community of users known as Wikipedians.we used http and ajax. It is made up of using Javascript, Bootstrap,HTML5 and CSS3",
+    "code_link": "https://github.com/nagireddy1234/wikipedia-search-project",
+    "deploy_link": "https://course-form.netlify.app/",
+    "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
+    "icons": ["Javascript", "HTML5"],
+    "image":img5,
+    "image_describe":"Wikipedia search project"
+  }
+  {
+    "id": 6,
     "name": "Course form Project",
     "description": "This is a basic app where we can do form validation. It is made up of using Javascript, Bootstrap,HTML5 and CSS3",
-    "code_link": "https://github.com/nagireddy1234/password-generator",
-    "deploy_link": "https://nagireddy1234.github.io/password-generator/",
+    "code_link": "https://github.com/nagireddy1234/Course-form-Project",
+    "deploy_link": "https://course-form.netlify.app/",
     "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
     "icons": ["Javascript", "HTML5"],
     "image":img5,
