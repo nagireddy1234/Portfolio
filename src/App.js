@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 import ParticlesContainer from './Components/Reusable/ParticlesContainer';
 import {BrowserRouter} from 'react-router-dom';
 
-
 class App extends Component {
 
     togglechange = ()=> {

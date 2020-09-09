@@ -60,7 +60,7 @@ export default[
     "icons": ["Javascript", "HTML5"],
     "image":img5,
     "image_describe":"Wikipedia search project"
-  }
+  },
   {
     "id": 6,
     "name": "Course form Project",
@@ -69,7 +69,7 @@ export default[
     "deploy_link": "https://course-form.netlify.app/",
     "tools": ["Bootstrap", "Javascript","HTML5","CSS3"],
     "icons": ["Javascript", "HTML5"],
-    "image":img5,
+    "image":img6,
     "image_describe":"Course form Project"
   }
 ]
