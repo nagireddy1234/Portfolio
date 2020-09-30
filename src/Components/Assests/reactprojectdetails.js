@@ -35,19 +35,19 @@
  
   {
     "id": 5,
-    "name": "Budget Caluclator",
-    "description": "This is a Budget Caluclator app and written with react hooks in order to study react framework which you can add and calulate dialy expenses, remove when its done .",
+    "name": "Budget Calculator",
+    "description": "This is a Budget calculator app and written with react hooks in order to study react framework which you can add and caluclate dialy expenses, remove when its done .",
     "code_link": "https://github.com/nagireddy1234/budget-caluclator/tree/master",
     "deploy_link": "https://nagireddy1234.github.io/budget-caluclator/",
     "tools": ["React Js", "React Hooks", "Local storage"],
     "icons": ["fab", "react"],
     "image": img6,
-    "image_describe":"budget-caluclator"
+    "image_describe":"budget-calculator"
   },
 
   {
     "id": 6,
-    "name": "Receipe-App",
+    "name": "Recipe-App",
     "description": "In this project, I have used Javascript and Bootstrap for making a book list which is stored in your local storage and can be save for next time. You can all delete books at once or edit your book list and keep a new list into storage.",
     "code_link": "https://github.com/nagireddy1234/recipe-app",
     "deploy_link": "https://recipes-ideas-app.netlify.com/?_ga=2.126810500.809865735.1586892963-319421270.1585670224",
