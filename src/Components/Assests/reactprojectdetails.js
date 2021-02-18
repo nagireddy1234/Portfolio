@@ -80,14 +80,14 @@
   },
   {
     "id": 10,
-    "name": "Tech-Store-App",
-    "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
-    "code_link": "https://github.com/nagireddy1234/mobile-tech-store",
-    "deploy_link": "https://mobilesstore.netlify.com/",
-    "tools": ["Sass", "Gulp"],
-    "icons": ["fab", "sass"],
-    "image":img12,
-    "image_describe":"tech-store"
+    "name": "E-commerce Project",
+    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
+    "code_link": "https://github.com/nagireddy1234/E-commerce_capstoneProject",
+    "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
+    "tools": ["React Js", "Redux","local storage" ],
+    "icons": ["fab", "react"],
+    "image":img2,
+    "image_describe":"e-commerce"
   },
   {
     "id": 11,
@@ -102,14 +102,14 @@
   },
   {
     "id": 12,
-    "name": "E-commerce Project",
-    "description": "This is a React app with Redux where users can find any movie of their choice and get information about that movie. The data is taken from an API which reflects IMDB movie data. This app can be enhanced as a cinema website where people can buy their tickets for the movies.",
-    "code_link": "https://github.com/nagireddy1234/E-commerce_capstoneProject",
-    "deploy_link": "https://ecommerce-mobilestore.netlify.com/",
-    "tools": ["React Js", "Redux","local storage" ],
-    "icons": ["fab", "react"],
-    "image":img2,
-    "image_describe":"e-commerce"
+    "name": "Tech-Store-App",
+    "description": "In this project, I have made a sass project with the help of sass plugins and gulp task-runner. This project is made to show my sass skills and only is about frontend web design made with flexbox and BEM.",
+    "code_link": "https://github.com/nagireddy1234/mobile-tech-store",
+    "deploy_link": "https://mobilesstore.netlify.com/",
+    "tools": ["Sass", "Gulp"],
+    "icons": ["fab", "sass"],
+    "image":img12,
+    "image_describe":"tech-store"
   },
  
 ]
