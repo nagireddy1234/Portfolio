@@ -12,7 +12,7 @@ class Landing extends Component {
         <BouncyDiv> <Cell col={12}>  
             <img src={Image} className="avatar-img" alt="avatar" ></img>
             <div className="Banner-text">
-            <Typing hideCursor><Typing.Speed ms={75} /><h1>Front end dev focusing on full stack web</h1> </Typing>
+            <Typing hideCursor><Typing.Speed ms={75} /><h1>full stack web developer</h1> </Typing>
               <p>JavaScript | TypeScript | Jquery | React Hooks | Redux | GitHub/Git | PHP | Mysql | Node Js | Mongo DB | Vue | HTML5/CSS3/Bootstrap | UX design</p>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/" rel="noopener noreferrer" target="_blank">
