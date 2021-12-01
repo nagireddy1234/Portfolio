@@ -13,7 +13,7 @@ class Landing extends Component {
             <img src={Image} className="avatar-img" alt="avatar" ></img>
             <div className="Banner-text">
             <Typing hideCursor><Typing.Speed ms={75} /><h1>Full stack web developer</h1> </Typing>
-              <p>JavaScript | TypeScript | Jquery | React Hooks | Redux | GitHub/Git | PHP | Mysql | Node Js | Mongo DB | Vue | HTML5/CSS3/Bootstrap | UX design</p>
+              <p>JavaScript | TypeScript | Jquery | React Hooks | Redux | GitHub/Git | Node Js | Mongo DB | Vue | HTML5/CSS3/Bootstrap | UX design</p>
               <div className="social-icons">
                 <a href="https://www.linkedin.com/in/nagi-reddy-62594aba/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square"></i>
@@ -22,7 +22,7 @@ class Landing extends Component {
                   <i className="fa fa-github-square"></i>
                 </a>
                 <a href="https://codepen.io/nagireddy1234" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-codepen"></i>
+                <i class="fa fa-free-code-camp"></i>
                 </a>
                 <a href="mailto:nagireddy.panditi@gmail.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-envelope"></i>
