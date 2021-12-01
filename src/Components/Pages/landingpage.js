@@ -24,6 +24,9 @@ class Landing extends Component {
                 <a href="https://www.freecodecamp.org/fcccaeadb8a-c22c-4e63-ab09-9dabf3b81f78" rel="noopener noreferrer" target="_blank">
                 <i class="fa fa-free-code-camp"></i>
                 </a>
+                <a href="https://stackoverflow.com/users/9988717/nagi?tab=profile" rel="noopener noreferrer" target="_blank">
+                <i class="fa fa-stack-overflow"></i>
+                </a>
                 <a href="mailto:nagireddy.panditi@gmail.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-envelope"></i>
                 </a>
