@@ -21,7 +21,7 @@ class Landing extends Component {
                 <a href="https://github.com/nagireddy1234" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square"></i>
                 </a>
-                <a href="https://codepen.io/nagireddy1234" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.freecodecamp.org/fcccaeadb8a-c22c-4e63-ab09-9dabf3b81f78" rel="noopener noreferrer" target="_blank">
                 <i class="fa fa-free-code-camp"></i>
                 </a>
                 <a href="mailto:nagireddy.panditi@gmail.com" rel="noopener noreferrer" target="_blank">
