@@ -8,7 +8,7 @@ import { Switch, Route } from 'react-router-dom';
 const Navbar = () => (
 <Switch> 
 <Route exact path="/" component={landingpage}/>
-<Route exact path="/aboutme" component={About}/>
+<Route exact path="/about" component={About}/>
 <Route exact path="/cv" component={Resume}/>
 <Route exact path="/projects" component={Projects}/>
 <Route exact path="/contact" component={Contacts}/>
