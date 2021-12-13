@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Image from "../../images/profile_pic.jpg";
 import Typing from "react-typing-animation";
-
 import { BouncyDiv } from "../Animations/animation";
+
 class Landing extends Component {
   render() {
     return (

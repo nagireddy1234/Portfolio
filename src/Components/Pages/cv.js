@@ -8,7 +8,7 @@ class Resume extends Component {
         <Timeline lineColor={"#9acd32"} className="Timeline">
           <TimelineItem
             key="001"
-            dateText="03/2020 – Present"
+            dateText="01/2022 – Present"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
             bodyContainerStyle={{
@@ -20,12 +20,89 @@ class Resume extends Component {
             }}
           >
             <div className="timeLineItem">
-              <h3>Front-end web Developer</h3>
+              <h3>React js Developer, advectus.net</h3>
+              <h5>Tallinn, Estonia</h5>
+            </div>
+
+            <ul className="timelinneItem-content">
+              <li>
+                Design, develop and test highly available, integrated and secure
+                cloud based automotive enterprise and digital marketing
+                solutions
+              </li>
+              <li>
+                Identify and implement new technical solutions to enhance the
+                development cycle to increase development productivity
+              </li>
+              <li>
+                Ensure the ease of use and performance of the UIs to provide the
+                best possible user experience
+              </li>
+              <li>
+                Participate actively in the refinement of requirements together
+                with our automotive business experts
+              </li>
+            </ul>
+          </TimelineItem>
+          <TimelineItem
+            key="002"
+            dateText="03/2021 – 12/2021"
+            style={{ color: "#9acd32" }}
+            dateInnerStyle={{ background: "#9acd32", color: "#222" }}
+            bodyContainerStyle={{
+              background: "#9acd32",
+              color: "#222",
+              padding: "1em",
+              borderRadius: "1em",
+              boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
+            }}
+          >
+            <div className="timeLineItem">
+              <h3>React js Developer, orgo.ee</h3>
+              <h5>Tallinn, Estonia</h5>
+            </div>
+            <ul className="timelinneItem-content">
+              <li>
+                Investigate and deliver the tasks related to front end software
+                development defined by technical team.
+              </li>
+              <li>
+                Participate in defining and improving UI designs and development
+                patterns
+              </li>
+              <li>
+                Develop UIs with support for different browsers and devices,
+                from mobile devices to laptops and presentation screens
+              </li>
+              <li>
+                Collaborate in tasks and Implementation platforms used by the
+                technical team Communicate Problems and the development status
+                to technical team
+              </li>
+            </ul>
+          </TimelineItem>
+
+          <TimelineItem
+            key="003"
+            dateText="03/2020 – 02/2021"
+            style={{ color: "#9acd32" }}
+            dateInnerStyle={{ background: "#9acd32", color: "#222" }}
+            bodyContainerStyle={{
+              background: "#9acd32",
+              color: "#222",
+              padding: "1em",
+              borderRadius: "1em",
+              boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
+            }}
+          >
+            <div className="timeLineItem">
+              <h3>Frontend Developer, contester.net</h3>
+              <h5>Tallinn, Estonia</h5>
             </div>
             <ul className="timelinneItem-content">
               <li>
                 I involved from conception to completion with projects that are
-                technologically sound and aesthetically impressive.{" "}
+                technologically sound and aesthetically impressive.
               </li>
               <li>I have learned and understood the user interactions</li>
               <li>
@@ -37,7 +114,7 @@ class Resume extends Component {
             </ul>
           </TimelineItem>
           <TimelineItem
-            key="002"
+            key="004"
             dateText="03/2018 – 07/2019"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
@@ -70,7 +147,7 @@ class Resume extends Component {
             </ul>
           </TimelineItem>
           <TimelineItem
-            key="003"
+            key="005"
             dateText="08/2016 – 08/2017"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
@@ -88,7 +165,6 @@ class Resume extends Component {
             </div>
             <ul className="timelinneItem-content">
               <li>
-                {" "}
                 I applied methodology for systems engineering using the
                 fundamental concepts from disciplines such as probability,
                 economics, and cognitive science.
@@ -105,7 +181,7 @@ class Resume extends Component {
             </ul>
           </TimelineItem>
           <TimelineItem
-            key="004"
+            key="006"
             dateText="09/2013 – 01/2017"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
@@ -130,7 +206,7 @@ class Resume extends Component {
             </ul>
           </TimelineItem>
           <TimelineItem
-            key="005"
+            key="007"
             dateText="08/2011 – 12/2012"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
@@ -151,7 +227,7 @@ class Resume extends Component {
             </ul>
           </TimelineItem>
           <TimelineItem
-            key="006"
+            key="008"
             dateText="08/2007 – 06/2011"
             style={{ color: "#9acd32" }}
             dateInnerStyle={{ background: "#9acd32", color: "#222" }}
