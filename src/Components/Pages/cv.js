@@ -146,40 +146,40 @@ class Resume extends Component {
               </li>
             </ul>
           </TimelineItem>
-          <TimelineItem
-            key="005"
-            dateText="08/2016 – 08/2017"
-            style={{ color: "#9acd32" }}
-            dateInnerStyle={{ background: "#9acd32", color: "#222" }}
-            bodyContainerStyle={{
-              background: "#9acd32",
-              color: "#222",
-              padding: "20px",
-              borderRadius: "8px",
-              boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
-            }}
-          >
-            <div className="timeLineItem">
-              <h3>Msc in Systems Engineering</h3>
-              <h5>VestFold University College, Vestfold, Norway</h5>
-            </div>
-            <ul className="timelinneItem-content">
-              <li>
-                I applied methodology for systems engineering using the
-                fundamental concepts from disciplines such as probability,
-                economics, and cognitive science.
-              </li>
-              <li>
-                Apply systems engineering tools (e.g., requirements development
-                and management, robust design, Design Structure Matrix) to
-                realistic problems
-              </li>
-              <li>
-                Recognize the value and limitations of modeling and simulation
-              </li>
-              <li> I have studied one year </li>
-            </ul>
-          </TimelineItem>
+          // <TimelineItem
+          //   key="005"
+          //   dateText="08/2016 – 08/2017"
+          //   style={{ color: "#9acd32" }}
+          //   dateInnerStyle={{ background: "#9acd32", color: "#222" }}
+          //   bodyContainerStyle={{
+          //     background: "#9acd32",
+          //     color: "#222",
+          //     padding: "20px",
+          //     borderRadius: "8px",
+          //     boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
+          //   }}
+          // >
+          //   <div className="timeLineItem">
+          //     <h3>Msc in Systems Engineering</h3>
+          //     <h5>VestFold University College, Vestfold, Norway</h5>
+          //   </div>
+          //   <ul className="timelinneItem-content">
+          //     <li>
+          //       I applied methodology for systems engineering using the
+          //       fundamental concepts from disciplines such as probability,
+          //       economics, and cognitive science.
+          //     </li>
+          //     <li>
+          //       Apply systems engineering tools (e.g., requirements development
+          //       and management, robust design, Design Structure Matrix) to
+          //       realistic problems
+          //     </li>
+          //     <li>
+          //       Recognize the value and limitations of modeling and simulation
+          //     </li>
+          //     <li> I have studied one year </li>
+          //   </ul>
+          // </TimelineItem>
           <TimelineItem
             key="006"
             dateText="09/2013 – 01/2017"
